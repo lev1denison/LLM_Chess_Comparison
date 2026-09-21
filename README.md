@@ -1,19 +1,19 @@
-# DA401 Capstone Project - [Your Name]
+# DA401 Capstone Project - Victor Le
 
 ## Project Title
-(Write a clear, descriptive title for your project.)
+When Do Humans and Large Language Models Disagree About Chess Difficulty?
 
 ## Research Question
-What question are you trying to answer?
+Whether Large Language Models and humans find a puzzle hard based on different scenerios such as board position, tactical motif, number of pieces, ...
 
 ## Data Source
-Where is your data coming from? 
+Open lichess puzzle database available at https://database.lichess.org/#puzzles
 
 ## Methods
-Which methods or models will you use? 
+Classification Methods such as Logistic Regression and Tree-based model
 
 ## Expected Timeline
-What do you expect to produce every week?
+Timeline can be assessed via my initial proposal at writing/Victor_Le_Proposal401.pdf
 
 ## Google Drive 
 [Google Drive link if you have any]
