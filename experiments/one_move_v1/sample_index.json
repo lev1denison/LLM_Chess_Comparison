@@ -1,0 +1,8002 @@
+[
+  {
+    "puzzle_id": "t7IJC",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 1,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "6bcHo",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 2,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "u6WVi",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 3,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "tQeFV",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 4,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "T9pOz",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 5,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "nk8HG",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 6,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "1Bxs2",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 7,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "qnh7j",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 8,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "e73nf",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 9,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "CkvQP",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 10,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "C4kdH",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 11,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "jyqiv",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 12,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "gELqi",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 13,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "YADfl",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 14,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "MXpfU",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 15,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "7TRh8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 16,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "PCTWj",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 17,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "KGAUm",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 18,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "zqsyF",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 19,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "mgDip",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 20,
+    "pilot": true,
+    "operational_check": true
+  },
+  {
+    "puzzle_id": "r1ryw",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 21,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8DMba",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 22,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AAR7I",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 23,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0i3zL",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 24,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XHH2P",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 25,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HgMa1",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 26,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cOIsA",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 27,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YcGlH",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 28,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9lwiM",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 29,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "B3z1a",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 30,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BTUqC",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 31,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "JEMfo",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 32,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HnWQz",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 33,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2HhwI",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 34,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "R67j5",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 35,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "26eW3",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 36,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0pAMR",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 37,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "c1dsu",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 38,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Sutrd",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 39,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SEW3J",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 40,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5anuw",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 41,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lHIC5",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 42,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jOPL7",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 43,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2fnZj",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 44,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CQ2La",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 45,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6d7TB",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 46,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "S6Pb4",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 47,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3UcYQ",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 48,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MAEmn",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 49,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "pIqPR",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 50,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "w4xwM",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 51,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "F4QKO",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 52,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "B5B2a",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 53,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IMQ9m",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 54,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "55pw1",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 55,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IRZ9s",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 56,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2Y1cM",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 57,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "84Msb",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 58,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LNuxE",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 59,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "d8Fi3",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 60,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "dW36w",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 61,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hmcjZ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 62,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FIvvU",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 63,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NJPQE",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 64,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "tagwJ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 65,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "P3rTg",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 66,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "aigfq",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 67,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "mYV7E",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 68,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uasVi",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 69,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "mkvGe",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 70,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Sbvp1",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 71,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hGdnd",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 72,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "TBxYa",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 73,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "sbHHW",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 74,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iqtJF",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 75,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Oq2Kz",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 76,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SNQMt",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 77,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OyyUD",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 78,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3Ua65",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 79,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "64bR0",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 80,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XEK9J",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 81,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GsIAU",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 82,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ajh2f",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 83,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "zwyTr",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 84,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XLCPj",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 85,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "nydCe",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 86,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8hzRb",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 87,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uKgtp",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 88,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "dNLPp",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 89,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CwcUA",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 90,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "p72j1",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 91,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ICWzw",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 92,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XQzqc",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 93,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hUc14",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 94,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZT7xj",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 95,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xFqVk",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 96,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "gnWbR",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 97,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ynpZP",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 98,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CTOe7",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 99,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ko9Dp",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 100,
+    "pilot": true,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "62vPv",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 101,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VzBRk",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 102,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "tETVI",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 103,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "J9wPy",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 104,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WXRzy",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 105,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1OkSv",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 106,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qo5sQ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 107,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WOIxs",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 108,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bcZCI",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 109,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vvLnu",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 110,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2O8fD",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 111,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vlR8a",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 112,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "p1pLN",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 113,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8WS9I",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 114,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "clj6f",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 115,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "A2HA3",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 116,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GNhV3",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 117,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7Bi83",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 118,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qeo7Q",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 119,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bxtI7",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 120,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "JDub8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 121,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SH8mZ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 122,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ehxqn",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 123,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ga9jA",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 124,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AWQaQ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 125,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "c2ycJ",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 126,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5oKJY",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 127,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Wbgfc",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 128,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QdqfA",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 129,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IllBG",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 130,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9qjBh",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 131,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lVxG0",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 132,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wUOcZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 133,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "O67AV",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 134,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EIRFl",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 135,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BRJiB",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 136,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MAOSR",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 137,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8Hp9Y",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 138,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "fkv2e",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 139,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7C5Jp",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 140,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4xNxw",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 141,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "w2gIu",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 142,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ClBK0",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 143,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "d24A3",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 144,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1ki9y",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 145,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4BucF",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 146,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CKf7T",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 147,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cPN4P",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 148,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NZzhu",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 149,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0GbDM",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 150,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GpIOX",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 151,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vJIVT",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 152,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bpOTP",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 153,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jJMe0",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 154,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ixy8g",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 155,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xwhTm",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 156,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Wnzmc",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 157,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9mK63",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 158,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "sIoTe",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 159,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ADQOV",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 160,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "A6eYH",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 161,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "yiU7S",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 162,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oy0AW",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 163,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wSqev",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 164,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "20ktp",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 165,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WTX80",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 166,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QOBhQ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 167,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vMc4J",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 168,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZCuEf",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 169,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NmaRi",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 170,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CQ303",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 171,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8ShKQ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 172,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "fcNNk",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 173,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "l1ldx",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 174,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "31FzW",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 175,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "UChGz",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 176,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wElIN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 177,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "plLTA",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 178,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "u0zmn",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 179,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QMcR5",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 180,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "JMHfY",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 181,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YPBIE",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 182,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "UL1ni",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 183,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "DMAOS",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 184,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kUyej",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 185,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "dDxQf",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 186,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WYjcH",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 187,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "F8keX",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 188,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "el1qD",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 189,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "STrdZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 190,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SCd2t",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 191,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "gC5VN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 192,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0R1ZG",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 193,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HshcF",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 194,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vSMsy",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 195,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "G9hzD",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 196,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "e6Kv3",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 197,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PJISr",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 198,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bGtO1",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 199,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "pAwF8",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 200,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RCXvB",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 201,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5sVK4",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 202,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LpchZ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 203,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ut0VE",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 204,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "u3Sdk",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 205,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0VQEv",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 206,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "J2AJ3",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 207,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NsIvW",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 208,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oeXHA",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 209,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "eATik",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 210,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "q1xns",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 211,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "onLLM",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 212,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9vT5F",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 213,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PJqKn",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 214,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HCaBl",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 215,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jWFNG",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 216,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "R30bu",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 217,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "G18k7",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 218,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "r8DwO",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 219,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "U7gSQ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 220,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "eRC6i",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 221,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "nX0hN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 222,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2xFbl",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 223,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Gbo8k",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 224,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CLZv9",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 225,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9gMYP",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 226,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "g4b1w",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 227,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8adJs",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 228,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cgep2",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 229,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "sj4Oz",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 230,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "c8avQ",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 231,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1oB71",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 232,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "aRc5z",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 233,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xOWlk",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 234,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1s32R",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 235,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "JoQj9",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 236,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jheB5",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 237,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "35xyb",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 238,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ArB1L",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 239,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rq8xH",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 240,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PtOiX",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 241,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "muZMB",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 242,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xw5n9",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 243,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OSwRh",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 244,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SoI3W",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 245,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SfhHL",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 246,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hEh8o",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 247,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "zADWZ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 248,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wFE2Q",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 249,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PgTG9",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 250,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Kobq8",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 251,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZZ85I",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 252,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KXOsW",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 253,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LQvTM",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 254,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1UgmB",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 255,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "sppSD",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 256,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Igk85",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 257,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ur6oT",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 258,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FG7uD",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 259,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EHbCA",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 260,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "V7LNN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 261,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1RfME",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 262,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hFQsG",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 263,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "TIe6S",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 264,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GHTOU",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 265,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AFO2W",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 266,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uTApX",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 267,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3pOqm",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 268,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uOXKO",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 269,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XyVVl",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 270,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qlmkb",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 271,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kMKYj",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 272,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SZuSP",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 273,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qyXH8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 274,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jCjLW",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 275,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Wkgkf",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 276,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vcDXk",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 277,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FzVYU",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 278,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "DQmXP",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 279,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "u8rg8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 280,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lbRHn",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 281,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "mklbB",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 282,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "fACbr",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 283,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "z0xmn",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 284,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "L13EX",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 285,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Jj4Go",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 286,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Jq3Ge",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 287,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "85dWk",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 288,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "brPUx",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 289,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EB72i",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 290,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qn3mW",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 291,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MXZLK",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 292,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "G0aP2",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 293,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "DxXJw",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 294,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2MZX8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 295,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "j8n76",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 296,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "JYbaX",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 297,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "b6gcB",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 298,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "plG9c",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 299,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BJMPD",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 300,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "focaD",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 301,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "V6O9P",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 302,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rkuvv",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 303,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YbxE4",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 304,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "u4h5A",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 305,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3jFhy",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 306,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6BYSZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 307,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ymTC7",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 308,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8bcQz",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 309,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iOMUc",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 310,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "e5MuL",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 311,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wLQF4",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 312,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LBtzM",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 313,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AesJu",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 314,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "W499y",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 315,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ntZXx",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 316,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZwWjg",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 317,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BOhHo",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 318,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lrLV2",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 319,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VyVWk",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 320,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "zzpAZ",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 321,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "fj08C",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 322,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0RsFY",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 323,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "c7RAu",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 324,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3zSsC",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 325,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4b7c9",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 326,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6617G",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 327,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5c8Tg",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 328,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5xnwo",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 329,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "mAmP5",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 330,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MMCTe",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 331,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9SNTZ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 332,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KsPrV",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 333,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OPFhY",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 334,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CQgNM",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 335,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2Z1Xz",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 336,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "by2ts",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 337,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "sFx2R",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 338,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iC79V",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 339,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KrC2H",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 340,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OKhFB",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 341,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7d3MD",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 342,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QB70w",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 343,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ObzDk",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 344,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CJ6LS",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 345,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "eBhYp",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 346,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Dx1aZ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 347,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "DdSrd",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 348,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6du9N",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 349,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IAOLj",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 350,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cpgvs",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 351,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AEH2s",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 352,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hJMJI",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 353,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "U3YHF",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 354,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HsDhi",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 355,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IqLSh",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 356,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "tsFm4",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 357,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1M5pT",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 358,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ROn6j",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 359,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "b0WzT",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 360,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZyDD7",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 361,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bvf0S",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 362,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "aoAcM",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 363,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uS6FZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 364,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KRNj3",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 365,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SGd1F",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 366,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cxI1S",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 367,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "DPBnq",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 368,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "G2GYn",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 369,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "g6d5C",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 370,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AOAdR",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 371,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xmLBm",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 372,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "eGnYJ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 373,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "txb1h",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 374,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ekBFz",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 375,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bhIQN",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 376,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IgeG0",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 377,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Y82NL",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 378,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KWR1G",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 379,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "14gde",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 380,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uQpnW",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 381,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rBi54",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 382,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9hmv6",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 383,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0BOuo",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 384,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5WK15",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 385,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "nYwaq",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 386,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EFsOg",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 387,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "H7M0R",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 388,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RBFiL",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 389,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "g40gc",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 390,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PZsq1",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 391,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RkN09",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 392,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kUYE4",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 393,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9DyYe",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 394,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MvvR9",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 395,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MlgiT",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 396,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "nClEr",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 397,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BmqAT",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 398,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "s177f",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 399,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6iCAC",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 400,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "aC0NA",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 401,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uAZgb",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 402,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cD2k8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 403,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZU2Yy",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 404,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GbDl2",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 405,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VEIEG",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 406,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "DtNih",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 407,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "odXm3",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 408,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BohD6",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 409,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NB4DH",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 410,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7IzCg",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 411,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CeAfU",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 412,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6tBMU",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 413,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uEz3r",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 414,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qs4EF",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 415,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Z9NYY",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 416,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "btsL7",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 417,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MiBy1",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 418,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rhBEq",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 419,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Iw8dd",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 420,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vtRqu",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 421,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KbUat",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 422,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iE9LQ",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 423,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "yLRJB",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 424,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "E9fxt",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 425,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EPtZC",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 426,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3LHt4",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 427,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ExeDY",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 428,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1qbMN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 429,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "zVxUj",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 430,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "enyEZ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 431,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "T6qnE",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 432,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "l0vbi",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 433,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7a2Gh",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 434,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "n4YLm",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 435,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "dGsNF",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 436,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1eEZ6",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 437,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FnBmp",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 438,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0GShW",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 439,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "s04RX",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 440,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hLc0U",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 441,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qMRSq",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 442,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AtTcJ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 443,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oL7V5",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 444,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "a4iHt",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 445,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ul7LV",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 446,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Z4xv9",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 447,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8ppmD",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 448,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SSr8Q",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 449,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "eyFtl",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 450,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "u85XO",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 451,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "anEDA",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 452,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "O36fe",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 453,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XMSKg",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 454,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iVV3Z",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 455,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4RbL8",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 456,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bSeRp",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 457,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PTiPy",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 458,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "gOXAP",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 459,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6Z6XJ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 460,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lkTKv",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 461,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BhuSU",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 462,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4uuSe",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 463,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kdsVA",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 464,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ecbFN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 465,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GeGHu",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 466,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5CTfF",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 467,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7TR5Y",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 468,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "aMQlR",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 469,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Bq1Rc",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 470,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XK1NC",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 471,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "DOxmv",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 472,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bFUCv",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 473,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "itzXw",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 474,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "mQ4XJ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 475,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "h7KJS",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 476,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Z7ZVO",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 477,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xRawX",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 478,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PBBuM",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 479,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "APQPz",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 480,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FyEuy",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 481,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KKmet",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 482,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jDThL",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 483,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Tw8br",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 484,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6a9Lh",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 485,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4Qv2I",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 486,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "nOsiZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 487,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZNSge",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 488,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "u71e9",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 489,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IcLTk",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 490,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IsFxL",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 491,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cX5eJ",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 492,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iIj52",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 493,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EYMip",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 494,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wnI8m",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 495,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7SKQ5",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 496,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0UpQS",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 497,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "q669y",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 498,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qJ2Du",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 499,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ShOe0",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 500,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "fSMpN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 501,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1ad6a",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 502,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FkeVU",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 503,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CCHdw",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 504,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lhNC3",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 505,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "61Bkw",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 506,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0qcAI",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 507,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2X2lA",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 508,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "q8v97",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 509,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "okXLw",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 510,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "UScEX",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 511,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OMtPv",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 512,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KfUCB",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 513,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EOg86",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 514,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ewh6d",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 515,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "TK9UY",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 516,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "zJqC8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 517,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XPk9W",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 518,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "drto9",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 519,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ARih9",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 520,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OS8tA",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 521,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "tHdkx",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 522,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "e1E75",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 523,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0rBWn",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 524,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1AcLR",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 525,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kpZOB",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 526,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "J1Eku",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 527,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NMawm",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 528,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uKCA7",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 529,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "H4Zxs",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 530,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HxcNX",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 531,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "le9hg",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 532,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ueljb",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 533,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PvgTe",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 534,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZBd0v",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 535,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "46Yda",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 536,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hsYKa",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 537,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BWWnU",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 538,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cag5V",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 539,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PbmZr",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 540,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MLvDI",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 541,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kOVku",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 542,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XUXjd",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 543,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "buaUg",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 544,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vqMf3",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 545,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "K9Jjs",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 546,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VWmSg",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 547,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Vx9aF",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 548,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "gBt7y",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 549,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "X5mUw",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 550,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MVTSy",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 551,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "tkKjn",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 552,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "N4cP9",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 553,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iZtuI",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 554,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Keamh",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 555,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "24oGh",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 556,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7wsdj",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 557,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "mkZhc",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 558,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "63wXj",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 559,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cpsHt",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 560,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "w5aLO",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 561,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7E5MJ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 562,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4gIJi",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 563,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ngq2N",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 564,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NOELR",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 565,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rDmcc",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 566,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bBp13",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 567,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "tKED4",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 568,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "pwIpo",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 569,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Yc1Fw",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 570,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QuWvj",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 571,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ov2H8",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 572,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CFjRB",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 573,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Hk6wp",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 574,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "b3YpV",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 575,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "JmZov",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 576,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YytaK",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 577,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WIp0b",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 578,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "l15jG",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 579,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "aZp6a",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 580,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "N3Q5z",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 581,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cd0ni",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 582,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "TZxz7",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 583,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XzDd9",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 584,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xvcJ9",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 585,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1ExI6",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 586,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0pvd8",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 587,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jZRg4",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 588,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RsLU4",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 589,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "I6UMM",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 590,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uirBS",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 591,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "p8n1j",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 592,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "UyhJl",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 593,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "i7pQv",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 594,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IZqVP",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 595,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "D6Jqc",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 596,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RAM5B",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 597,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Cifu8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 598,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hh240",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 599,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kAPJL",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 600,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cf0vp",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 601,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AQY1z",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 602,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6qjJq",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 603,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7ROOy",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 604,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "eCY9F",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 605,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4KEa1",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 606,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FLlvS",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 607,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "O0NOq",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 608,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9rQkP",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 609,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZR5fZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 610,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YabXg",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 611,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6QE4a",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 612,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ca9JW",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 613,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "08qTY",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 614,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MLuVC",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 615,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "gxQae",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 616,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rX5RT",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 617,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "v0NO8",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 618,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rmbWg",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 619,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LTeUl",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 620,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4IGeS",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 621,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0ubww",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 622,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "S0nGg",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 623,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ttln2",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 624,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "pHdjf",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 625,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GjHTb",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 626,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "98eRt",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 627,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "pmSGw",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 628,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NjCgp",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 629,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7nPf5",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 630,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MQpvr",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 631,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iQhjS",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 632,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "riXQb",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 633,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0Dbky",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 634,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wMvxy",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 635,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "dOwRl",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 636,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uaGBX",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 637,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Vkc25",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 638,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "h5zeu",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 639,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZEpAl",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 640,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "UmGYF",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 641,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4djBf",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 642,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iFl86",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 643,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OXsbN",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 644,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "W8Iza",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 645,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3DzPs",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 646,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qIfcJ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 647,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2Ri7t",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 648,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EWyQ8",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 649,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MeRij",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 650,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xGkWL",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 651,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Fs9oz",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 652,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Yd1e4",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 653,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vYY9I",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 654,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7sWcS",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 655,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "n5NmU",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 656,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IsPMU",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 657,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "76FYW",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 658,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vNEX7",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 659,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wyHQv",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 660,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uHhAB",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 661,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lqPxi",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 662,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9E7xk",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 663,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "v1taZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 664,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NEzMY",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 665,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VP7Y8",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 666,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uNvDZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 667,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "n4rCT",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 668,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WKenu",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 669,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YCbXF",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 670,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jduKq",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 671,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "pUVE4",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 672,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jZYPf",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 673,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YTjGY",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 674,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "v5C0f",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 675,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5Wtlw",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 676,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Qq6tm",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 677,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AzfBN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 678,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KjyL6",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 679,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Nwvo0",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 680,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RhylF",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 681,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iA3Lf",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 682,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7LOWY",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 683,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QZO87",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 684,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hFV6f",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 685,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ES6oA",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 686,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "s7xZ6",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 687,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7zMOt",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 688,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "aGIot",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 689,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "P7eok",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 690,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YcoCt",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 691,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "48Pqn",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 692,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "krq4K",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 693,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BkZkX",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 694,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Cq9Lg",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 695,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NbrvY",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 696,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZyG6p",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 697,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0hVzp",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 698,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "l7FS3",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 699,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "yM1z5",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 700,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "i7Z57",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 701,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4TqDb",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 702,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xBzlc",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 703,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "N7v7L",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 704,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "psofM",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 705,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "l8C24",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 706,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4rZZ7",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 707,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FomT3",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 708,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Q4Emv",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 709,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lCJcs",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 710,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bEpGd",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 711,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "49677",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 712,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "myuu4",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 713,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GIrvw",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 714,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VwYbu",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 715,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YSQSA",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 716,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Lz89T",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 717,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iZgdj",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 718,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wus20",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 719,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hGY6k",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 720,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CNiTv",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 721,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "L33l0",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 722,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RSSUa",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 723,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "I9eCB",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 724,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "42TC5",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 725,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QI3xF",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 726,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MJm0m",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 727,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KfHJk",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 728,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NXa2o",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 729,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0vUj9",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 730,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SSaIz",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 731,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jilin",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 732,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7qEc5",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 733,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kCB2V",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 734,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "k1EnZ",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 735,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "N4sPf",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 736,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Yac6s",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 737,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3p5UG",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 738,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PaQNk",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 739,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LqrhV",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 740,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8tp4B",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 741,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1vZtZ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 742,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1ORsY",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 743,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "gKpS7",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 744,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "JmBM9",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 745,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0PaFj",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 746,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZUELV",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 747,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WoLWY",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 748,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uSfMp",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 749,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uhSfX",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 750,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "akV8O",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 751,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SgFfx",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 752,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kFEMr",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 753,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "U8BXJ",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 754,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FNOaO",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 755,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rYlcs",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 756,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RELMS",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 757,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "d8HO1",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 758,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "92yNu",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 759,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LFDzG",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 760,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "k6VaO",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 761,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WQTZH",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 762,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "C9TEr",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 763,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "x8Rwv",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 764,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ofmGz",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 765,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3DLn6",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 766,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vfPUC",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 767,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jGXec",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 768,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3UVb4",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 769,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "UWWV8",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 770,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "fFQ2J",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 771,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KUlWP",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 772,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "JXMV4",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 773,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3Itj7",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 774,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "XqfiE",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 775,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "zH2w5",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 776,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lFnp4",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 777,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HNyjD",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 778,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8bUXJ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 779,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BVxMb",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 780,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "L9RPw",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 781,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "57eVJ",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 782,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2wrAG",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 783,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Jxjn0",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 784,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HeRR5",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 785,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "x9PVJ",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 786,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "dhBPh",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 787,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bclOD",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 788,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lWQuN",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 789,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "G1kY9",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 790,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xOzl6",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 791,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wdlWj",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 792,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3uWdY",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 793,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2gsED",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 794,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "gQPa8",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 795,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2QoXx",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 796,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EmztH",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 797,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cmiwB",
+    "rating_stratum": "high",
+    "split": "train",
+    "collection_order": 798,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3PFGP",
+    "rating_stratum": "low",
+    "split": "train",
+    "collection_order": 799,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "TvJDi",
+    "rating_stratum": "middle",
+    "split": "train",
+    "collection_order": 800,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wLXsj",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 801,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LAv8w",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 802,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5xYHr",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 803,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "j6RE8",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 804,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "dC4g3",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 805,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "B8Euo",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 806,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oqMnr",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 807,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "TglTz",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 808,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "29tNh",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 809,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oIAKD",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 810,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jUW1J",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 811,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HhNrR",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 812,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FrJBV",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 813,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HNDv1",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 814,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "v55wP",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 815,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AlTqy",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 816,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "c26kr",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 817,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "rEtWX",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 818,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "UZTzy",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 819,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "fjJPJ",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 820,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Rnl4A",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 821,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QUQZ4",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 822,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qpJo4",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 823,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "C0LJn",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 824,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "zRaNh",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 825,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3zu8z",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 826,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lAqsK",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 827,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EneO8",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 828,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LGd4W",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 829,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "vhUz0",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 830,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IjVgc",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 831,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oQzAe",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 832,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WJiyc",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 833,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ECLEY",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 834,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bnXkr",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 835,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "mlfiN",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 836,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9H0V8",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 837,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4oVGK",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 838,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iqrN1",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 839,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cwR2F",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 840,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8bEAm",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 841,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OjsAO",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 842,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oRbc1",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 843,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "f5l8O",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 844,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6Vc3s",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 845,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "W2bBE",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 846,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "s5j5j",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 847,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oOwn1",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 848,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EXcLY",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 849,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PeLOO",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 850,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lxM1A",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 851,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WNtt8",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 852,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BJwwV",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 853,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jDCo7",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 854,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "LqsU9",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 855,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "tpym5",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 856,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "nqQlA",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 857,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KEeyx",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 858,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VZwa0",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 859,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qOWl4",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 860,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VLLfO",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 861,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jgbiD",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 862,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bs3Dh",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 863,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6EocH",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 864,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "PP5BI",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 865,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hqMp7",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 866,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "BO1XL",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 867,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Lxle9",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 868,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7SqwP",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 869,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "jypuR",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 870,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hHlCF",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 871,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SYUmW",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 872,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NtFvy",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 873,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6lX5v",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 874,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "EsGYP",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 875,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wooiW",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 876,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NOOSO",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 877,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "oKmva",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 878,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bf3DN",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 879,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xLitd",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 880,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "u6N2h",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 881,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OxHYl",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 882,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hs361",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 883,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9H4kh",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 884,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "pEA6q",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 885,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "WPSdX",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 886,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "if5cS",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 887,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "01a5v",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 888,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "m5RVJ",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 889,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "FdeRV",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 890,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Vi6pi",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 891,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MOLlu",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 892,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "pxqLT",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 893,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "T8QlV",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 894,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "97t8x",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 895,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8OzAV",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 896,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "qa8t0",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 897,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8C0d8",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 898,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "m0IRQ",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 899,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NGfqt",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 900,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GKINH",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 901,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KFX5m",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 902,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "IjjAP",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 903,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CRiOe",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 904,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ktPo6",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 905,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "GMiAN",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 906,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1Zt1Z",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 907,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "h8beP",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 908,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ne74i",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 909,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YgTdZ",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 910,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "w6Z0v",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 911,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "exfSq",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 912,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "z62wh",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 913,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lwNGz",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 914,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "uZS2I",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 915,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ayvHG",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 916,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "cfTs8",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 917,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "71EpA",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 918,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KWIdm",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 919,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wjcBV",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 920,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5VObY",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 921,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kq9aL",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 922,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bVcye",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 923,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bkQem",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 924,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "AN1hU",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 925,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Y99Oz",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 926,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wSadq",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 927,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "M5qaL",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 928,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ZU9eK",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 929,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iEHkJ",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 930,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4zfxM",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 931,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Lorxj",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 932,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "N1kXB",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 933,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Nz9pP",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 934,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "9JmdZ",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 935,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "TYNR6",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 936,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lUI0q",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 937,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Hz0np",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 938,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "69SlF",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 939,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "5zr7w",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 940,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CoXKz",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 941,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NjyMm",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 942,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xfJBA",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 943,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "YuiNt",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 944,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "eN71h",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 945,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kiO8U",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 946,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "OCfB9",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 947,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6dCgW",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 948,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MozfM",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 949,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VCV8g",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 950,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "1B8Ls",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 951,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "xRx1i",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 952,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "HWAbI",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 953,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "8rgHv",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 954,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "3AGq5",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 955,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KQTjR",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 956,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "SXMxD",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 957,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hxsX1",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 958,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Uoo6Y",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 959,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "gZiOd",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 960,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ufuij",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 961,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "6fExz",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 962,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0vpu6",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 963,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VVvMq",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 964,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "f82AT",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 965,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "S3YRU",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 966,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "CVYaD",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 967,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "lXCUY",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 968,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bt47q",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 969,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "VQFFJ",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 970,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "l9Hmw",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 971,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "7bRhR",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 972,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "4zgRR",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 973,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "0eair",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 974,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "KMaRp",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 975,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RDG38",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 976,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "e2kTI",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 977,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "bacpQ",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 978,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RvJ0B",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 979,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "wJnuz",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 980,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Yrmqb",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 981,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hFPUy",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 982,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "yT7NI",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 983,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "fNCYJ",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 984,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "2lGds",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 985,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NZfGU",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 986,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "RJkbY",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 987,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "iMYIb",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 988,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "eDCmE",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 989,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "NYk2E",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 990,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MNKr1",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 991,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "QFRhO",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 992,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "happy",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 993,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "DdFso",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 994,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "hUnCJ",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 995,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "MOD4x",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 996,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "kR5BE",
+    "rating_stratum": "middle",
+    "split": "test",
+    "collection_order": 997,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "Ttffu",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 998,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "g9Or0",
+    "rating_stratum": "high",
+    "split": "test",
+    "collection_order": 999,
+    "pilot": false,
+    "operational_check": false
+  },
+  {
+    "puzzle_id": "ApXqQ",
+    "rating_stratum": "low",
+    "split": "test",
+    "collection_order": 1000,
+    "pilot": false,
+    "operational_check": false
+  }
+]

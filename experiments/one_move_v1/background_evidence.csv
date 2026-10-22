@@ -1,0 +1,5 @@
+experiment,correct,completed,accuracy,scope,source_csv,source_sha256
+Local full-solution pilot,0,225,0.0,"Full solution; 3 local models, 75 puzzles each",data/experiments/03_local_full_sequence/outcomes.csv,7c47fa5e3af1369901be44a2de542eda40732c84084fe2a1eef4feaf376f6b78
+Local assisted first-move pilot,6,144,0.041666666666666664,"First move; 3 local models, 48 puzzles each",data/experiments/05_local_first_move/outcomes.csv,c4cb27eedf76c292d817aa50cc389ea2a691c52d1e20918e011d632ab6049100
+Hosted GPT-OSS pilot,21,60,0.35,First move; 60 puzzles,data/experiments/09_research_sample/results.csv,8cd8134f95a0140dda032e113297f939e85878b928d888c6f7664b526a897d76
+Hosted Gemini pilot,32,60,0.5333333333333333,First move; same 60 hosted puzzles,data/experiments/11_additional_models/gemini/results.csv,34815b2991a85e5befca6ab8c71bb4dcda986a3de0083a5da74136169638c166

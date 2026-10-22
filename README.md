@@ -1,116 +1,121 @@
-# Chess difficulty and LLM success
+# Assisted one-move chess-puzzle accuracy
 
 Victor Le - DA401
 
-**My research question:** Does human-rated Lichess puzzle difficulty predict an LLM's success?
-I evaluate **GPT-OSS 120B** and **Gemini 3.5 Flash-Lite**. I measure whether each
-model selects the official first move, with the board and legal choices supplied.
+I study **whether human-rated difficulty and board characteristics predict an
+LLM's accuracy on chess puzzles requiring exactly one solver move**. I evaluate
+GPT-OSS 120B and Gemini 3.5 Flash-Lite on the same 1,000 fresh positions.
 
-## My latest results: early_results_2
+## What assisted means
 
-I started full collection and paused at the configured usage guards. My new
-training-only checkpoint contains **404 Gemini answers: 174 correct (43.1%)**.
-GPT-OSS has **no new bulk answers** because its local rolling-budget guard
-paused collection before generation. I do not report that as 0% accuracy.
+I give each model the board in FEN, a piece list and **every legal move in
+alphabetical order**. I do not rank the choices or provide the answer, rating,
+theme labels, game-phase labels or engine scores. A correct answer must match
+the official solution move. This is assisted one-move solving, not unaided move
+generation or multi-step puzzle solving.
 
-I fitted Gemini's provisional logistic regression and descriptive decision tree.
-Its estimated odds ratio is **0.57 per 500 rating points** (ordinary 95% interval
-0.46-0.71), adjusting for whether the puzzle requires multiple solver moves.
-Success decreases as difficulty increases in this checkpoint. The tree selected
-rating for its splits. These are exploratory training results; my 200 held-out
-test puzzles remain unused and my final analysis plan is unchanged.
+## Current status and next step
 
-**Open [05 - Early results 2](notebooks/05_early_results_2.ipynb).**
-My new figures are [accuracy](figures/early_results_2/accuracy.png),
-[logistic regression](figures/early_results_2/logistic_regression.png) and
-[decision trees](figures/early_results_2/decision_trees.png). I freeze this
-checkpoint separately so later collection cannot overwrite it.
+I completed the same 100-puzzle training pilot for both models:
 
-## My original 60-puzzle pilot
+| Model | Correct / puzzles | Accuracy |
+| --- | --- | --- |
+| GPT-OSS 120B | 35 / 100 | 35% |
+| Gemini 3.5 Flash-Lite | 53 / 100 | 53% |
 
-I completed and audited a pilot using the same 60 puzzles for both models.
+**Open [05 - Early results](notebooks/05_early_results.ipynb).** My three figures
+are [accuracy](figures/one_move_v1/early/accuracy.png),
+[logistic regression](figures/one_move_v1/early/logistic_regression.png) and
+[decision trees](figures/one_move_v1/early/decision_trees.png).
 
-| Model | Correct first moves | Incorrect legal moves | Format failures |
-| --- | --- | --- | --- |
-| GPT-OSS 120B | 21/60 (35%) | 38 | 1 |
-| Gemini 3.5 Flash-Lite | 32/60 (53.3%) | 26 | 2 |
+My provisional pooled regression estimates an odds ratio of **0.50 per 500
+rating points** (ordinary 95% interval **0.35-0.73**), adjusting for numeric
+board characteristics and model identity, with puzzle-clustered standard
+errors. I label these exploratory training results; the trees are descriptive.
+The fuller theme/phase regression and held-out evaluation remain pending.
 
-Both models returned all 60 responses without provider failures. I fitted
-separate logistic regressions and descriptive decision trees. Gemini's odds
-ratio is 0.51 per 500 rating points (95% interval 0.29-0.90); GPT-OSS's is 0.67
-(0.39-1.17). These are exploratory results from a balanced, assisted sample.
-I do not claim full puzzle solving, future accuracy or a model-family ranking.
+All 216 raw responses (200 research answers plus 16 capability checks) passed
+the audit. Both 100-case answer sets replayed with zero new network requests
+and unchanged saved responses. My 200 held-out puzzles remain unused, and I
+have **900 puzzles left per model**. No bulk run is running.
 
-**Start with [03 - Early results](notebooks/03_early_results.ipynb).**
-It has two code cells, reads my saved results and makes no API calls.
-My three figures are [accuracy](figures/early_results/accuracy.png),
-[logistic regression](figures/early_results/logistic_regression.png) and
-[decision trees](figures/early_results/decision_trees.png).
+My first GPT-OSS attempt stopped at a conservative local token estimate. On
+retry I temporarily bypassed only that daily estimate; **Groq accepted all
+94 remaining requests without a rate-limit error**. I kept the prompt, model
+settings, scoring, sample and analysis plan unchanged. This operational retry
+is recorded in `data/experiments/one_move_v1/gpt_oss/provider_retry_audit.json`.
+The notebook's default local guard is still unchanged; I need to align its
+quota accounting with actual provider behavior before launching bulk.
 
-## My bulk run
+I review notebook 05 next. Notebook 04 stays in `RUN_MODE = "pilot"`; rerunning
+completed cases reuses saved answers. I do not launch `bulk` until I review
+the pilot and quota handling. `WAIT_FOR_QUOTA = False` saves and pauses at
+limits; `True` waits and resumes while the computer and kernel remain running.
 
-I froze **1,000 fresh shared puzzles** with an **800 training / 200 test** split.
-I kept my pilot prompts, model settings, scoring and final analysis plan.
-I started full collection in notebook 04. Each provider advances independently
-after its own capability and immutable-resume checks. I stop and save progress
-when a provider completes or reaches a local/provider limit.
-
-Both collectors are now paused. Gemini stopped at the conservative **480
-logged project requests per provider day**, including earlier usage, with
-404 research answers saved. GPT-OSS stopped at a saved local rolling-token
-budget retry time. Neither stop was a new API rate-limit error in this session.
-All 412 Gemini raw responses (8 capability checks plus 404 research answers)
-passed the independent audit.
-
-My saved earliest retry times are **October 22, 2026 at 1:17 AM New York** for
-GPT-OSS and **3:00 AM New York** for Gemini. These are local guard eligibility
-times, not guarantees of available provider quota; another pause is possible.
-I have **596 Gemini puzzles and all 1,000 GPT-OSS puzzles** left to collect.
-
-I use **[05 - Early results 2](notebooks/05_early_results_2.ipynb)** to freeze a
-training-only checkpoint when collection stops. It estimates a provisional
-regression and descriptive tree only when enough new training data exist.
-It does not substitute pilot results for a model without new answers or use
-my held-out test outcomes. My original pilot graphs remain in notebook 03.
-
-I resume with **[04 - Bulk collection](notebooks/04_bulk_collection.ipynb)**,
-`RUN_MODE = "bulk"` and `WAIT_FOR_QUOTA = False`. If I choose automatic waiting,
-I set `WAIT_FOR_QUOTA = True` and keep my computer and kernel running.
-I use **[06 - Final analysis](notebooks/06_final_analysis.ipynb)** after complete
-audited collection for the unchanged primary regressions and held-out tree
-prediction evaluation. I do not tune from interim graphs.
+The sample contains **979 mate-in-one-tagged puzzles**, so conclusions mainly
+concern mating tactics. I reserve 800 puzzles for training and 200 for held-out evaluation. The first
+100 training puzzles, shared by both models, form my early checkpoint and
+count toward the final 1,000 if the protocol stays unchanged.
 
 ## My notebook order
 
-The active numbers describe **the logical workflow**, not creation dates.
+The numbers follow the workflow, not file creation dates.
 
-| Step | My notebook | Purpose |
+| Step | Notebook | Purpose |
 | --- | --- | --- |
-| 01 | `01_data_inspection.ipynb` | Inspect the source dataset |
-| 02 | `02_chess_validation.ipynb` | Validate positions and extract features |
-| 03 | `03_early_results.ipynb` | Review the completed 60-puzzle pilot |
-| 04 | `04_bulk_collection.ipynb` | Collect/resume the frozen 1,000-puzzle study |
-| 05 | `05_early_results_2.ipynb` | Review a separate frozen interim training checkpoint |
-| 06 | `06_final_analysis.ipynb` | Run final regressions and held-out tree evaluation |
+| 01 | [Data inspection](notebooks/01_data_inspection.ipynb) | Completed source-data inspection |
+| 02 | [Chess validation](notebooks/02_chess_validation.ipynb) | Completed position validation and feature extraction |
+| 03 | [Prepare study](notebooks/03_prepare_study.ipynb) | Freeze fresh puzzles, split and board features; no API calls |
+| 04 | [Collect answers](notebooks/04_collect_answers.ipynb) | Run/resume the 100-case pilot, then the 1,000-case collection |
+| 05 | [Early results](notebooks/05_early_results.ipynb) | Freeze pilot accuracy and supported provisional regression/tree graphs |
+| 06 | [Final analysis](notebooks/06_final_analysis.ipynb) | Fuller pooled regression and held-out tree evaluation after complete collection |
 
-The old 08-10 numbers came from historical experiment stages. I moved those
-notebooks, unchanged, into `notebooks/reference/` so they no longer look like
-steps after the current workflow. Their frozen historical paths can be restored
-from the verified archive when reproducing an older run.
+I do not rerun 01 or 02 unless the source data changes. Notebook 04 is now saved in **pilot mode**. It collects at most 100 training
+puzzles per model; it does not launch the full 1,000-case run.
 
-## My project layout
+## What I analyze
 
-- `notebooks/01_*` and `02_*`: my completed data inspection and validation; I do not rerun them unless the source changes.
-- `notebooks/03_early_results.ipynb`: my completed 60-puzzle pilot results.
-- `notebooks/04_bulk_collection.ipynb`: my frozen sample, operational check and resumable bulk collector.
-- `notebooks/05_early_results_2.ipynb`: my separate exploratory bulk checkpoint.
-- `notebooks/06_final_analysis.ipynb`: my prespecified final regressions and held-out tree evaluation.
-- `notebooks/reference/`: my unchanged historical reliability, collection and analysis notebooks.
-- `experiments/bulk_v1/`: my frozen bulk config, analysis plan, prompt and lightweight sample index. Earlier numbered protocols are historical.
-- `data/`: my raw responses, audits and fitted models. It is Git-ignored, so I back it up separately.
-- `figures/early_results_2/`: my latest three interim figures; `early_results/` preserves my original pilot figures.
-- `writing/`: my three original PDFs, unchanged, and a short README.
-- `archive/`: my retired expansion notebooks and superseded figures, with verified hashes.
+I record human rating, legal-move count, piece count, solver-relative material
+balance, tactical tags, game phase and side to move. My smaller early regression
+uses the numeric board features and model identity. My fuller final regression
+adds frozen theme and phase encoding and accounts for repeated puzzles through
+puzzle-clustered standard errors. Solution length is constant and is excluded.
+My final CART trees train on 800 puzzles per model and evaluate once on 200
+held-out puzzles. A shallow CART is different from the XGBoost originally
+proposed in my PDF. I study associations, not causal effects.
 
-I use the project's `.venv` kernel. I keep the Groq and Google keys in
-Git-ignored `api_key.txt` and `google_api.txt`. I back up `data/experiments/bulk_v1/`, `data/analysis/early_results_2/` and `data/analysis/bulk_v1/` separately because they are Git-ignored. I have not committed or pushed this update.
+## Why I switched from local to hosted models
+
+My earlier feasibility checks produced:
+
+| Earlier experiment | Correct / completed | What was scored |
+| --- | --- | --- |
+| Three local models | 0 / 225 | Complete puzzle solutions |
+| Three local models | 6 / 144 (4.2%) | Assisted first moves |
+| Hosted GPT-OSS 120B | 21 / 60 (35.0%) | Assisted first moves |
+| Hosted Gemini | 32 / 60 (53.3%) | Assisted first moves |
+
+I moved to hosted models because I needed enough successes and failures to
+analyze board characteristics. **These are historical feasibility results, not
+results of the new one-move study or a controlled local-versus-hosted ranking.**
+The local and hosted samples and prompt formats differ. The two hosted pilots
+used the same 60 puzzles. [Evidence counts and source hashes](experiments/one_move_v1/background_evidence.csv)
+link back to saved raw-data tables; notebook 03 displays this evidence clearly.
+
+## Project folders
+
+- `experiments/one_move_v1/`: my [revised protocol](experiments/one_move_v1/protocol.md), fixed settings, analysis plan, prompt and sample index.
+- `notebooks/`: the six workflow notebooks above.
+- `figures/one_move_v1/`: only the new study's figures, created after real answers exist.
+- `data/validation/`: my reusable validated puzzle features.
+- `data/experiments/one_move_v1/`: my new frozen sample and, later, raw responses and audits.
+- `data/analysis/one_move_v1/`: my new early/final analysis outputs.
+- Older raw data under ignored `data/` remains only for provenance, exclusions and quota accounting; it is not pooled into the new study.
+- `writing/`: my original three PDFs, unchanged. The revised protocol documents differences from those earlier plans.
+
+I removed the old archive and superseded active experiments, figures and
+notebooks at this restart. I keep credentials in ignored `api_key.txt` and
+`google_api.txt`; I never commit them. The large source and all `data/` files
+are also Git-ignored, so a clone needs those local data files to reproduce the
+notebooks. I back up the new study's data separately. I have not committed or
+pushed this revamp.

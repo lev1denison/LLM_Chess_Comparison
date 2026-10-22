@@ -1,3 +1,7 @@
-# My research writing
+# My original writing
 
-I keep my original proposal, literature review and revised research design PDFs here unchanged. I describe my current study, model selection and results in the project README and notebooks. I use first person in my current Markdown writing.
+I keep my three original PDFs unchanged. They describe earlier plans and are
+not the final protocol for my revised assisted one-move study. My current
+protocol is `../experiments/one_move_v1/protocol.md`. It records the outcome,
+model list, sample size, assistance, board features and analysis changes made
+after exploratory work. I will align future writing with that protocol.

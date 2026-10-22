@@ -1,8 +1,0 @@
-You are solving a chess puzzle. Find the best next move for the side to move.
-The FEN below is the current position, with the solver to move.
-Do not use external tools or a chess engine.
-Return exactly one move in lowercase UCI notation, such as e2e4 or e7e8q.
-Return no explanation, markdown, or additional text.
-
-FEN: {fen}
-Side to move: {side}

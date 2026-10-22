@@ -1,124 +1,42 @@
 {
-  "current_stage": "bulk_v1",
-  "stages": [
+  "current_study": "one_move_v1",
+  "status": "pilot_complete_early_results_ready",
+  "logical_order": [
     {
-      "stage": 1,
-      "name": "data_review",
-      "status": "complete",
+      "step": 1,
       "notebook": "notebooks/01_data_inspection.ipynb"
     },
     {
-      "stage": 2,
-      "name": "chess_validation",
-      "status": "complete",
+      "step": 2,
       "notebook": "notebooks/02_chess_validation.ipynb"
     },
     {
-      "stage": 3,
-      "name": "local_full_sequence",
-      "status": "historical",
-      "result": "0/225 full-sequence successes"
+      "step": 3,
+      "notebook": "notebooks/03_prepare_study.ipynb"
     },
     {
-      "stage": 4,
-      "name": "local_prompt_revision",
-      "status": "historical",
-      "result": "No complete solutions in prompt development"
+      "step": 4,
+      "notebook": "notebooks/04_collect_answers.ipynb"
     },
     {
-      "stage": 5,
-      "name": "local_first_move",
-      "status": "historical",
-      "result": "6/144 correct first moves; preliminary classifiers only"
+      "step": 5,
+      "notebook": "notebooks/05_early_results.ipynb"
     },
     {
-      "stage": 6,
-      "name": "local_reasoning_check",
-      "status": "historical",
-      "result": "Qwen 14B: 4/8 capability checks; gate failed"
-    },
-    {
-      "stage": 7,
-      "name": "hosted_first_move",
-      "status": "historical",
-      "result": "8/8 capability; fresh: 11 correct, 4 incorrect, 9 no answer /24"
-    },
-    {
-      "stage": 8,
-      "name": "hosted_reliability",
-      "status": "complete",
-      "notebook": "notebooks/reference/08_check_hosted_reliability.ipynb",
-      "result": "Low effort selected; 7/8 usable reused cases and 8/8 capability checks"
-    },
-    {
-      "stage": 9,
-      "name": "research_sample",
-      "status": "complete",
-      "notebook": "notebooks/reference/09_collect_research_sample.ipynb",
-      "result": "60 audited fresh responses; 21 correct, 38 incorrect legal moves, 1 format failure; no provider failures"
-    },
-    {
-      "stage": 10,
-      "name": "research_analysis",
-      "status": "early_results_ready",
-      "notebook": "notebooks/reference/10_analyze_research_sample.ipynb",
-      "result": "Logistic regression curve, odds ratios and exploratory numeric CART tree saved; rating interval includes no association"
-    },
-    {
-      "stage": 11,
-      "name": "additional_models",
-      "status": "two_model_pilot_complete",
-      "notebook": "notebooks/03_early_results.ipynb",
-      "result": "Gemini: 32/60 correct; regression and tree fitted; audited checkpoint."
+      "step": 6,
+      "notebook": "notebooks/06_final_analysis.ipynb"
     }
   ],
-  "historical_path_mapping": {
-    "experiments/first_move_v1": "experiments/05_local_first_move",
-    "experiments/qwen14b_capability_v2": "experiments/06_local_reasoning_check",
-    "experiments/qwen14b_capability_v1": "experiments/06_local_reasoning_check/aborted_draft",
-    "experiments/groq120b_capability_v1": "experiments/07_hosted_first_move",
-    "data/experiments/local_pilot_v2": "data/experiments/03_local_full_sequence",
-    "data/experiments/board_prompt_v1": "data/experiments/04_local_prompt_revision",
-    "data/experiments/first_move_v1": "data/experiments/05_local_first_move",
-    "data/experiments/qwen14b_capability_v2": "data/experiments/06_local_reasoning_check",
-    "data/experiments/qwen14b_capability_v1": "data/experiments/06_local_reasoning_check/aborted_draft",
-    "data/experiments/groq120b_capability_v1": "data/experiments/07_hosted_first_move",
-    "data/analysis/local_pilot_v2": "data/analysis/03_local_full_sequence",
-    "data/analysis/board_prompt_v1": "data/analysis/04_local_prompt_revision",
-    "data/analysis/first_move_v1": "data/analysis/05_local_first_move",
-    "figures/local_pilot_v2": "figures/03_local_full_sequence",
-    "figures/board_prompt_v1": "figures/04_local_prompt_revision",
-    "figures/first_move_v1": "figures/05_local_first_move"
-  },
-  "current_notebook": "notebooks/04_bulk_collection.ipynb",
-  "active_models": [
-    "openai/gpt-oss-120b",
-    "gemini-3.5-flash-lite"
-  ],
-  "next_step": "Review notebook 05 early_results_2, then resume notebook 04 after saved retry times; final analysis remains pending complete data.",
-  "retired_expansion_archive": "archive/retired_model_notebooks.zip",
-  "bulk_study": {
-    "version": "bulk_v1",
-    "n": 1000,
-    "train_n": 800,
-    "test_n": 200,
-    "sample_index": "experiments/bulk_v1/sample_index.json",
-    "collection_notebook": "notebooks/04_bulk_collection.ipynb",
-    "analysis_notebook": "notebooks/06_final_analysis.ipynb",
-    "status": "paused_at_local_usage_guards",
-    "interim_notebook": "notebooks/05_early_results_2.ipynb",
-    "completed_research": {
-      "gpt_oss": 0,
-      "gemini": 404
-    },
-    "latest_results": "data/analysis/early_results_2/summary.json"
-  },
-  "logical_notebook_order": [
-    "01_data_inspection.ipynb",
-    "02_chess_validation.ipynb",
-    "03_early_results.ipynb",
-    "04_bulk_collection.ipynb",
-    "05_early_results_2.ipynb",
-    "06_final_analysis.ipynb"
-  ]
+  "protocol": "experiments/one_move_v1/protocol.md",
+  "next_step": "Review frozen early results in notebook 05. No bulk run started; each model has 900 remaining. The GPT-OSS provider-managed retry was temporary; review local quota accounting before bulk.",
+  "sample_n": 1000,
+  "pilot_n_per_model": 100,
+  "train_n": 800,
+  "test_n": 200,
+  "new_api_calls": 219,
+  "new_generation_requests": 216,
+  "completed_research": {
+    "gpt_oss": 100,
+    "gemini": 100
+  }
 }

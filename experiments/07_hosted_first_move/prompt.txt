@@ -1,7 +1,0 @@
-Choose the best next move in this chess puzzle for {side}.
-FEN: {fen}
-{pieces}
-Legal UCI choices in alphabetical order: {choices}
-The choices are not ranked by strength. Analyze the position and select one.
-Do not use external tools or a chess engine.
-Return only JSON with one key "move", for example {{"move":"e2e4"}}.

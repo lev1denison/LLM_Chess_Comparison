@@ -1,0 +1,91 @@
+{
+  "version": "one_move_v1",
+  "sample_n": 1000,
+  "train_n": 800,
+  "test_n": 200,
+  "sample_seed": 2501,
+  "split_seed": 2502,
+  "order_seed": 2503,
+  "rating_bands": {
+    "low_max": 1157,
+    "middle_max": 1700
+  },
+  "cell_sizes": [
+    {
+      "rating": "low",
+      "length": "one_move",
+      "n": 334,
+      "test_n": 67
+    },
+    {
+      "rating": "middle",
+      "length": "one_move",
+      "n": 333,
+      "test_n": 66
+    },
+    {
+      "rating": "high",
+      "length": "one_move",
+      "n": 333,
+      "test_n": 67
+    }
+  ],
+  "warmup_n": 20,
+  "outcome": "Assisted one-solver-move puzzle accuracy: exact official solver move. I supply FEN, piece list and all unranked legal moves. Invalid/blocked/truncated answers count as failures; infrastructure failures remain pending.",
+  "retry_policy": "Identical request only for transport, HTTP 429 and 5xx; at most five attempts per invocation. Saved completed responses are never replaced. Daily quotas pause only that provider. Explicit zero allowance/access/request-size errors stop for review.",
+  "models": {
+    "gpt_oss": {
+      "label": "GPT-OSS 120B",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "key_file": "api_key.txt",
+      "base_url": "https://api.groq.com/openai/v1",
+      "temperature": 0.6,
+      "seed": 401,
+      "max_completion_tokens": 6000,
+      "reasoning_effort": "low",
+      "minimum_pause_seconds": 2,
+      "daily_token_budget": 190000,
+      "rolling_request_budget": 900
+    },
+    "gemini": {
+      "label": "Gemini 3.5 Flash-Lite",
+      "provider": "google",
+      "model": "gemini-3.5-flash-lite",
+      "key_file": "google_api.txt",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "seed": 401,
+      "max_completion_tokens": 6000,
+      "thinking_level": "LOW",
+      "minimum_pause_seconds": 6,
+      "daily_request_budget": 480
+    }
+  },
+  "sources": [
+    "https://console.groq.com/docs/rate-limits",
+    "https://ai.google.dev/gemini-api/docs/rate-limits"
+  ],
+  "scope": "Exactly one required solver move after the initial Lichess setup move; not restricted to checkmate. Both deployments use the same fresh puzzles and split. The balanced rating sample is not population representative. This revision follows inspected exploratory studies.",
+  "pilot_n": 100,
+  "theme_candidates": [
+    "fork",
+    "pin",
+    "skewer",
+    "discoveredAttack",
+    "sacrifice",
+    "promotion",
+    "deflection",
+    "attraction",
+    "kingsideAttack",
+    "queensideAttack",
+    "hangingPiece",
+    "backRankMate",
+    "smotheredMate",
+    "discoveredCheck",
+    "doubleCheck",
+    "attackingF2F7"
+  ],
+  "theme_min_training_puzzles": 30
+}

@@ -1,0 +1,53 @@
+{
+  "version": "one_move_v1",
+  "question": "Does human-rated difficulty predict assisted one-move puzzle accuracy, and which board characteristics explain additional variation?",
+  "revision_disclosure": "I narrowed the outcome after earlier local and hosted exploratory studies. I freeze this version before new responses; it is not a claim that this was my original unmodified design.",
+  "sample": "1000 fresh unique solver positions; low/middle/high rating allocation 334/333/333. Same 800 train and 200 held-out puzzles for both models. First 100 are a rating-balanced training pilot; never resample based on outcomes.",
+  "assistance": "FEN, piece list, alphabetical complete legal UCI choices. No ratings, theme labels, game-phase labels, correct moves, engine evaluations or tools are provided.",
+  "scoring": "Assisted one-solver-move puzzle accuracy: exact official solver move. I supply FEN, piece list and all unranked legal moves. Invalid/blocked/truncated answers count as failures; infrastructure failures remain pending.",
+  "features": {
+    "core": [
+      "rating_500",
+      "legal_moves_10",
+      "piece_count_10",
+      "material_balance"
+    ],
+    "scales": {
+      "rating_500": "(rating-1500)/500",
+      "legal_moves_10": "legal moves / 10",
+      "piece_count_10": "piece count / 10",
+      "material_balance": "solver material minus opponent material; P=1,N=B=3,R=5,Q=9"
+    },
+    "themes": [
+      "fork",
+      "pin",
+      "skewer",
+      "discoveredAttack",
+      "sacrifice",
+      "promotion",
+      "deflection",
+      "attraction",
+      "kingsideAttack",
+      "queensideAttack",
+      "hangingPiece",
+      "backRankMate",
+      "smotheredMate",
+      "discoveredCheck",
+      "doubleCheck",
+      "attackingF2F7"
+    ],
+    "theme_rule": "Separate binary indicators for candidate tags with at least 30 occurrences and 30 absences in the frozen 800 training puzzles; no outcome-based selection. Raw tags retained. Rare themes remain descriptive.",
+    "phase_rule": "Use opening/middlegame/endgame tags. Exactly one tag => that phase; zero or multiple => unknown. Keep training-common phases (>=30 training puzzles); map the remainder to other. Baseline is the most frequent mapped training phase. Freeze dummy columns before responses.",
+    "solution_length": "Verified as one; excluded as a constant. Side to move recorded descriptively, not added to this fixed regression.",
+    "sample_limitation": "The frozen sample has 979/1000 mateIn1-tagged puzzles; generalization beyond mating tactics is limited. Raw tags are descriptive; only training-common prespecified indicators enter the final regression."
+  },
+  "primary_regression": "Pooled unpenalized binomial GLM: success ~ intercept + core board predictors + frozen theme indicators + game-phase indicators + Gemini identity indicator. All 1000 completed answers per model required. Puzzle-clustered standard errors; same puzzle is the cluster. Report odds ratios, ordinary 95% intervals and the prespecified two-sided rating coefficient test. Associations, not causal effects.",
+  "regression_gate": "At least 50 successes and 50 failures in each model; full column rank; converged finite estimates and covariance; no perfect separation warning. If unsupported, report the reason without silently dropping predictors or changing the specification.",
+  "early_regression": "After both models finish all 100 pilot training puzzles, fit an exploratory pooled regression using core board predictors and model identity only, puzzle-clustered SE. Require at least 15 successes and 15 failures per model. No primary significance claims or predictor tuning. The full theme/phase regression waits for the final sample.",
+  "tree": "Separate sklearn CART per model, Gini, max_depth=3, min_samples_leaf=40, random_state=401, probability threshold .5. Predictors are the frozen full board features; no model identity within a per-model tree. Train on 800 only; no tuning.",
+  "early_tree": "Descriptive CART per model on the same 100 pilot training cases, core board features, max_depth=2,min_samples_leaf=15,random_state=401; require >=15 successes and failures. Not a held-out performance claim.",
+  "heldout": "After complete audited collection, freeze the tree before evaluating once on 200 held-out cases per model. Report accuracy/Wilson95, balanced accuracy, ROC AUC, Brier score, confusion matrix and training-majority baseline. Shared puzzle split prevents leakage. Primary association regression uses all responses; held-out claims apply only to the predictive tree.",
+  "pilot_policy": "8 capability checks then 20 training operational cases with zero-call replay proof, then extend to 100 training research cases per model. These 100 count toward final 1000 if request/scoring stays unchanged. Never replace completed wrong answers. Accuracy does not decide whether to keep a puzzle or tune a prompt.",
+  "versioning": "New prompts, scoring or outcome-based predictor changes require a new version. Early snapshot is frozen once; collection cannot overwrite its inputs.",
+  "quota": "Retain historical model usage for local guards; do not treat local budget stops as confirmed provider rate-limit errors. Setup mode makes no network requests."
+}
