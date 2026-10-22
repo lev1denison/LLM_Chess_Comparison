@@ -1,63 +1,59 @@
-# Human-rated chess difficulty and local LLM performance
+# Chess difficulty and LLM success
 
-Victor Le — DA401 capstone
+Victor Le - DA401
 
-The project asks whether human-rated Lichess puzzle difficulty predicts LLM
-performance and whether position features add predictive information.
+**My research question:** Does human-rated Lichess puzzle difficulty predict an LLM's success?
+I evaluate **GPT-OSS 120B** and **Gemini 3.5 Flash-Lite**. I measure whether each
+model selects the official first move, with the board and legal choices supplied.
 
-## Start here
+## My current results
 
-Open **[04 — First-move results](notebooks/04_first_move_results.ipynb)** for current
-executed results, the exact random baseline and preliminary model status. Read
-**[the current report](writing/first_move_pilot_report.md)** for methods, findings,
-limitations, changes and the next research decision.
+I completed and audited a pilot using the same 60 puzzles for both models.
 
-The original full-sequence pilot produced 0/225 successes. Revised prompt
-development improved format and legality but produced no complete solutions.
-The current experiment measures **assisted first-move correctness** as a separate
-outcome. Earlier scores are unchanged; a correct first move does not imply that
-a multi-step puzzle was solved.
+| Model | Correct first moves | Incorrect legal moves | Format failures |
+| --- | --- | --- | --- |
+| GPT-OSS 120B | 21/60 (35%) | 38 | 1 |
+| Gemini 3.5 Flash-Lite | 32/60 (53.3%) | 26 | 2 |
 
-## Notebook workflow
+Both models returned all 60 responses without provider failures. I fitted
+separate logistic regressions and descriptive decision trees. Gemini's odds
+ratio is 0.51 per 500 rating points (95% interval 0.29-0.90); GPT-OSS's is 0.67
+(0.39-1.17). These are exploratory results from a balanced, assisted sample.
+I do not claim full puzzle solving, future accuracy or a model-family ranking.
 
-Use the project's `.venv` Python kernel. Start Jupyter/VS Code in this repository.
-Installed package versions are recorded in `requirements.txt` for environment
-recreation; the current environment is already configured.
+**Start with [03 - Early results](notebooks/03_early_results.ipynb).**
+It has two code cells, reads my saved results and makes no API calls.
+My three figures are [accuracy](figures/early_results/accuracy.png),
+[logistic regression](figures/early_results/logistic_regression.png) and
+[decision trees](figures/early_results/decision_trees.png).
 
-| Notebook | Purpose | When to run |
-| --- | --- | --- |
-| [01 — Data inspection](notebooks/01_data_inspection.ipynb) | Original audit and distributions | Historical outputs retained; rerun if needed |
-| [02 — Chess validation](notebooks/02_chess_validation.ipynb) | Board legality and feature extraction | Already completed for 6,157,341 puzzles; rerun for source/method changes only |
-| [03 — First-move pilot](notebooks/03_first_move_pilot.ipynb) | Review, sample, freeze, collect and audit | Requires Ollama; resumes completed collection |
-| [04 — First-move results](notebooks/04_first_move_results.ipynb) | Chance comparison and eligible models | Read or rerun; no inference calls |
+## My next steps
 
-Local models: `gemma3:4b`, `qwen3:8b`, `llama3.1:8b`. The current prompt and
-settings are in [experiments/first_move_v1](experiments/first_move_v1/README.md).
+**My pilot supports moving to bulk collection. I still need to prepare the bulk
+workflow before launching it; I have not started a bulk run.**
 
-## Project layout
+1. I will freeze a fresh shared sample of **1,000 puzzles**, excluding all previously exposed or reserved puzzles, and record the sampling seed.
+2. I will create a separate bulk notebook with the existing prompts/settings, automatic saving, provider-specific pacing and pause/resume across daily quotas. My reference collectors are fixed to 60 cases.
+3. I will collect both models' answers on the same sample without retrying wrong answers or replacing completed responses.
+4. I will audit the results and fit separate regressions and trees. I will decide any holdout split and analysis changes before seeing the bulk answers.
 
-```text
-notebooks/                       Four active numbered notebooks
-experiments/first_move_v1/        Current prompt, config and protocol
-data/                            Source, samples, raw logs and tables (Git-ignored)
-figures/first_move_v1/            Current plots; older folders retained
-writing/                         Current report and historical documents
-archive/                         Verified legacy code ZIP and restoration guide
-```
+On the free tiers, I budget roughly **2-3 quota days for Gemini** and **9-12 days
+for GPT-OSS**, based on my pilot usage, with checks and retries included as a
+planning buffer. I will verify the account limits before starting:
+[Groq](https://console.groq.com/docs/rate-limits) and
+[Google AI Studio](https://aistudio.google.com/rate-limit).
 
-Former loose scripts, duplicate setup notebooks and placeholder regression code
-are preserved in [the archive](archive/README.md). Existing data and figures
-retain their paths. Historical reports' `code/` references refer to the restorable
-archived layout.
+## My project layout
 
-## Data and interpretation
+- `notebooks/01_*` and `02_*`: my completed data inspection and validation; I do not rerun them unless the source changes.
+- `notebooks/03_early_results.ipynb`: my current two-model results and next steps.
+- `notebooks/08_*`, `09_*`, `10_*`: my validated pilot collection/analysis references, retained to support the bulk implementation.
+- `experiments/`: my frozen protocols and stage index; earlier numbered stages are historical.
+- `data/`: my raw responses, audits and fitted models. It is Git-ignored, so I back it up separately.
+- `figures/early_results/`: my current three figures.
+- `writing/`: my three original PDFs, unchanged, and a short README.
+- `archive/`: my retired expansion notebooks and superseded figures, with verified hashes.
 
-Source: [Lichess puzzle database](https://database.lichess.org/#puzzles). Snapshot
-hashes are saved in experiment metadata. Back up `data/` separately; it is ignored
-by Git and is not included in the code archive.
-
-The current balanced 48-puzzle sample is exploratory and uses legal-move assistance
-and exact official first-move matching. It does not establish population accuracy
-or general LLM chess ability. Model family, size and quantization differ. Merely
-fitting a classifier does not establish above-chance ability or a stable human
-difficulty relationship.
+I use the project's `.venv` kernel. I keep the Groq and Google keys in
+Git-ignored `api_key.txt` and `google_api.txt`. I have not committed or pushed
+this cleanup.

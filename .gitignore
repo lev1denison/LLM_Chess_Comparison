@@ -9,6 +9,10 @@ __pycache__/
 *.pyd
 *.egg-info/
 .env
+api_key.txt
+google_api.txt
+mistral_api.txt
+*_api_key.txt
 
 # R
 .Rhistory

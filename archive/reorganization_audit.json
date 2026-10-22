@@ -1,0 +1,128 @@
+{
+  "snapshot": "before_numbered_stages.zip",
+  "snapshot_sha256": "ef777f590b42b4edfaf658c58ec80a63a6089485301f4ffd518ad67576a14ab0",
+  "moves": [
+    {
+      "old": "experiments/first_move_v1",
+      "new": "experiments/05_local_first_move",
+      "files_verified": 3
+    },
+    {
+      "old": "experiments/qwen14b_capability_v2",
+      "new": "experiments/06_local_reasoning_check",
+      "files_verified": 3
+    },
+    {
+      "old": "experiments/qwen14b_capability_v1",
+      "new": "experiments/06_local_reasoning_check/aborted_draft",
+      "files_verified": 3
+    },
+    {
+      "old": "experiments/groq120b_capability_v1",
+      "new": "experiments/07_hosted_first_move",
+      "files_verified": 3
+    },
+    {
+      "old": "data/experiments/local_pilot_v2",
+      "new": "data/experiments/03_local_full_sequence",
+      "files_verified": 6
+    },
+    {
+      "old": "data/experiments/board_prompt_v1",
+      "new": "data/experiments/04_local_prompt_revision",
+      "files_verified": 12
+    },
+    {
+      "old": "data/experiments/first_move_v1",
+      "new": "data/experiments/05_local_first_move",
+      "files_verified": 9
+    },
+    {
+      "old": "data/experiments/qwen14b_capability_v2",
+      "new": "data/experiments/06_local_reasoning_check",
+      "files_verified": 9
+    },
+    {
+      "old": "data/experiments/qwen14b_capability_v1",
+      "new": "data/experiments/06_local_reasoning_check/aborted_draft",
+      "files_verified": 3
+    },
+    {
+      "old": "data/experiments/groq120b_capability_v1",
+      "new": "data/experiments/07_hosted_first_move",
+      "files_verified": 15
+    },
+    {
+      "old": "data/analysis/local_pilot_v2",
+      "new": "data/analysis/03_local_full_sequence",
+      "files_verified": 6
+    },
+    {
+      "old": "data/analysis/board_prompt_v1",
+      "new": "data/analysis/04_local_prompt_revision",
+      "files_verified": 9
+    },
+    {
+      "old": "data/analysis/first_move_v1",
+      "new": "data/analysis/05_local_first_move",
+      "files_verified": 11
+    },
+    {
+      "old": "figures/local_pilot_v2",
+      "new": "figures/03_local_full_sequence",
+      "files_verified": 2
+    },
+    {
+      "old": "figures/board_prompt_v1",
+      "new": "figures/04_local_prompt_revision",
+      "files_verified": 2
+    },
+    {
+      "old": "figures/first_move_v1",
+      "new": "figures/05_local_first_move",
+      "files_verified": 2
+    }
+  ],
+  "deleted_writing_markdown": [
+    "writing/first_move_pilot_report.md",
+    "writing/groq120b_capability_report.md",
+    "writing/pilot_protocol_local.md",
+    "writing/qwen14b_capability_report.md",
+    "writing/qwen_sampling_correction.md",
+    "writing/revised_prompt_experiment.md"
+  ],
+  "pdf_hashes": {
+    "writing/Victor_Le_LiteratureReview_DA401-1.pdf": "3c683bcbe6955d122742cc53e295d3f7333a6a784b6d9c56adff7a6716dae707",
+    "writing/Victor_Le_Proposal401.pdf": "8a46bfd8288a89cac4e9ce580a6d0861bc1acca42f2c38bdb336776e80ede65d",
+    "writing/Victor_Le_ResearchDesignRevised.pdf": "15f6e9a0a67bcb7505adf5da3ad734a069ad93c4596c0199677aaad87160154d"
+  },
+  "historical_notebooks_archived": 4,
+  "additional_stage08_archive": {
+    "file": "stage08_strict_output_notebook.zip",
+    "sha256": "7b5bc253d4aa04b1cb1285f3fccb7f9c41525b38cf0e1d8458a8b7b65b728ce3",
+    "reason": "Strict-output run preserved before offline notation normalization."
+  },
+  "current_stage": 10,
+  "new_notebooks": [
+    "08_check_hosted_reliability.ipynb",
+    "09_collect_research_sample.ipynb",
+    "10_analyze_research_sample.ipynb"
+  ],
+  "new_results": {
+    "fresh_n": 60,
+    "correct": 21,
+    "accuracy": 0.35,
+    "provider_errors": 0,
+    "early_models_fitted": true
+  },
+  "environment_note": "Windows Application Control blocked a historical scikit-learn extension. New stage-10 tree uses a checked NumPy CART implementation without changing security settings.",
+  "checks": [
+    "All moved file bytes verified at move time",
+    "Three PDFs unchanged",
+    "All 60 fresh responses rescored from raw requests",
+    "Saved regression coefficients match CSV",
+    "Saved tree counts and leaves match input data",
+    "Both new plots visually reviewed",
+    "No synthetic test results retained"
+  ]
+}

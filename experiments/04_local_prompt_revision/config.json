@@ -1,0 +1,24 @@
+{
+  "experiment": "board_prompt_v1",
+  "seed": 407,
+  "models": ["gemma3:4b", "qwen3:8b", "llama3.1:8b"],
+  "base_url": "http://localhost:11434",
+  "direct_options": {"temperature": 0, "seed": 401, "num_predict": 256, "num_ctx": 4096},
+  "qwen_reasoning_options": {"temperature": 0, "seed": 401, "num_predict": 2048, "num_ctx": 4096},
+  "qwen_direct_think": false,
+  "development_per_stratum": 4,
+  "evaluation_per_stratum": 25,
+  "selection_rule": {
+    "eligible_conditions": ["piece_list_json", "legal_choices_json"],
+    "minimum_full_solves": 3,
+    "minimum_distinct_solved_puzzles": 2,
+    "minimum_format_and_legality_rate": 0.9,
+    "require_all_36_attempts_completed": true,
+    "ranking": "most full solves, then prefer piece_list_json on ties",
+    "reasoning_probe": "Qwen only, one predetermined development puzzle per stratum; exploratory and ineligible for protocol selection"
+  },
+  "scoring": "Full official solver sequence, first mismatch stops; no alternate-line adjudication",
+  "context": "Independent current-position request at every solver turn; no cross-puzzle history",
+  "assistance": "Both conditions enforce JSON/UCI syntax; legal_choices_json also lists and constrains output to the legal move set. No engine scores or solutions supplied.",
+  "readiness_note": "Selection thresholds are operational pilot checks, not proof of statistical power. Fresh evaluation happens once without changing the selected condition."
+}

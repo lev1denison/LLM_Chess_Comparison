@@ -1,0 +1,7 @@
+Solve this chess puzzle for {side}. Find the best next move.
+FEN: {fen}
+{pieces}
+UCI notation uses a starting square and ending square, for example e2e4.
+For promotion append q, r, b or n, for example e7e8q.
+Do not use external tools or a chess engine.
+Return only a JSON object with one key "move", for example {{"move":"e2e4"}}.

@@ -1,0 +1,32 @@
+{
+  "version": "mistral_first_move_v1",
+  "sample": "Exact frozen 60 stage-09 positions, paired exploratory extension; not independent validation.",
+  "outcome": "Assisted exact official first move. Same prompt, FEN, piece list, unranked legal choices and whole-answer UCI/canonical SAN scoring.",
+  "capability_gate": "Eight fixtures: all completed and usable; both side and legal checks correct, at least two of four mates correct. Stop after two consecutive infrastructure/generation-limit failures.",
+  "analysis_gate": "All 60 attempted; at least 58 provider-completed, at least 15 successes and 15 failures.",
+  "regression": "Separate binomial GLM: success ~ (rating-1500)/500 + multiple-solver-moves indicator. 95% model-based intervals.",
+  "tree": "Descriptive numeric CART, depth 2, min leaf 10; rating, solver moves, legal moves. No held-out accuracy claim.",
+  "interpretation": "I assess the association between human-rated difficulty and assisted first-move success. Shared cases are paired. I do not pool them as independent observations or claim a causal family effect. Mistral high reasoning is not equivalent compute to other providers low settings.",
+  "retry": "Only identical requests on transport/429/5xx, at most five attempts. Never retry wrong/format/length answers. Monthly/daily quota or wait >120s pauses collection.",
+  "models": {
+    "mistral": {
+      "label": "Mistral Small 4",
+      "provider": "mistral",
+      "model": "mistral-small-2603",
+      "key_file": "mistral_api.txt",
+      "base_url": "https://api.mistral.ai/v1",
+      "temperature": 0.3,
+      "top_p": 1.0,
+      "seed": 401,
+      "max_completion_tokens": 6000,
+      "reasoning_effort": "high",
+      "minimum_pause_seconds": 6
+    }
+  },
+  "sources": [
+    "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+    "https://docs.mistral.ai/api/endpoint/chat",
+    "https://docs.mistral.ai/studio/conversations/reasoning",
+    "https://help.mistral.ai/en/articles/698531-why-am-i-hitting-api-rate-limits-and-how-do-i-increase-them"
+  ]
+}

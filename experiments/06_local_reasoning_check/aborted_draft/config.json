@@ -1,0 +1,14 @@
+{
+  "version": "qwen14b_capability_v1",
+  "model": "qwen3:14b",
+  "base_url": "http://localhost:11434",
+  "think": true,
+  "options": {"temperature": 0, "seed": 401, "num_predict": 8192, "num_ctx": 12288},
+  "capability_gate": "All 8 tasks completed; both side-to-move checks, both legal-move checks and at least 2 of 4 verified mate-in-one fixtures passed.",
+  "early_stop": "Stop capability stage after 2 consecutive generation-limit or infrastructure failures. Report incomplete capability assessment, not inability to solve chess.",
+  "evaluation": "Only if gate passes: 24 fresh puzzles, 4 per rating x one/multi-move cell; exclude all 198 original, reserved and first-move pilot IDs.",
+  "sample_seed": 431,
+  "outcome": "Assisted exact official first move; fresh independent request per puzzle; no full-sequence claim.",
+  "baseline": "Exact uniform random legal-choice expectation and one-sided Poisson-binomial upper tail, one model only.",
+  "interpretation": "Model size, thinking mode and output/context budgets all differ from earlier pilots, so changes cannot be attributed to model size alone. No classifier fitting on a 24-puzzle capability evaluation."
+}

@@ -1,5 +1,3 @@
-# Experiment figures
+# My figures
 
-`first_move_v1/` contains current first-move plots and any fitted decision tree.
-`local_pilot_v2/` and `board_prompt_v1/` preserve historical figures unchanged.
-Regenerate current plots from `notebooks/04_first_move_results.ipynb`.
+I keep my current two-model figures in `early_results/`: accuracy, logistic regression and decision trees. I generate them from my audited saved GPT-OSS and Gemini pilot results using notebook 03, without API calls or refitting. I archived the superseded expansion figures. Older numbered folders are historical. My trees describe the training sample, not held-out prediction accuracy.

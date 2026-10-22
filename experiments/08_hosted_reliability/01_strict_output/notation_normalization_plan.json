@@ -1,0 +1,8 @@
+{
+  "next_version": "hosted_reliability_v2_notation_normalized",
+  "trigger": "The first low-effort response returned the single standard SAN move Rxe8+ rather than the requested UCI string. Strict UCI parsing classified it as unparseable.",
+  "change": "Accept an entire final-answer string only when it is either a legal UCI move or one unambiguous legal SAN move parsed by python-chess for the supplied board. Convert SAN to UCI before exact official-move scoring. Do not extract moves from commentary, accept partial answers, use an engine, or provide a solution to the model.",
+  "preservation": "Finish and retain v1 unchanged. Freeze v2 separately. Rescore the existing v1 raw responses offline; do not rerun development cases for better answers. Record imported trial provenance. Run only missing capability requests after offline development scoring.",
+  "selection": "Keep the predeclared medium-then-low effort preference and 7-of-8 usable-development gate. Keep all eight capability checks and their original pass rule. Reused development correctness is not fresh research accuracy.",
+  "research": "Use the selected final-answer normalization rule for all future fresh cases, frozen before collection. Compare neither these rescored development numbers nor selected effort with earlier research accuracy as a causal model improvement."
+}

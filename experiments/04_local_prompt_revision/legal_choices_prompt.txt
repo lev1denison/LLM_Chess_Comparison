@@ -1,0 +1,7 @@
+Solve this chess puzzle for {side}. Find the best next move.
+FEN: {fen}
+{pieces}
+All legal UCI move choices, in alphabetical order: {legal_moves}
+Select one of the listed moves. The choices do not indicate which move is best.
+Do not use external tools or a chess engine.
+Return only a JSON object with one key "move", for example {{"move":"e2e4"}}.

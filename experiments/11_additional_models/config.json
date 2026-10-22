@@ -1,0 +1,45 @@
+{
+  "version": "additional_families_v1",
+  "sample": "Exact frozen 60 stage-09 puzzle positions; reused for a paired exploratory extension, not an independent confirmatory sample.",
+  "outcome": "Assisted exact official first move, same FEN, piece list, legal choices, prompt and whole-answer legal UCI/canonical SAN scoring as GPT-OSS.",
+  "capability_gate": "Eight synthetic fixtures: all completed and usable; both side checks, both legal checks, at least two of four mate-in-one checks correct. Stop after two consecutive infrastructure or generation-limit failures.",
+  "analysis_gate": "All 60 cases attempted; at least 58 completed provider responses and at least 15 successes and 15 failures. Same early analysis rule as stage 10.",
+  "regression": "Separate binomial GLM per deployment: success ~ (rating-1500)/500 + multiple-solver-moves indicator; 95% model-based intervals.",
+  "tree": "Separate descriptive numeric CART per deployment: depth 2, min leaf 10, rating/solver-move count/legal-move count. No held-out accuracy claims.",
+  "retry": "Identical requests only on transport/429/5xx; never retry incorrect, malformed, blocked or length-limited model outcomes. Daily/zero quota or server wait >120s pauses that provider. Five attempts maximum.",
+  "interpretation": "These are deployments with documented model-specific temperatures and reasoning settings. A label of low is not an equal compute budget across providers. Shared puzzles imply paired outcomes; no pooled independent-row significance test or causal family/size claim.",
+  "models": {
+    "qwen": {
+      "label": "Qwen 3.8 27B",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "key_file": "api_key.txt",
+      "base_url": "https://api.groq.com/openai/v1",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "seed": 401,
+      "max_completion_tokens": 6000,
+      "reasoning_effort": "low",
+      "reasoning_format": "parsed"
+    },
+    "gemini": {
+      "label": "Gemini 3.5 Flash-Lite",
+      "provider": "google",
+      "model": "gemini-3.5-flash-lite",
+      "key_file": "google_api.txt",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "seed": 401,
+      "max_completion_tokens": 6000,
+      "thinking_level": "LOW",
+      "minimum_pause_seconds": 6
+    }
+  },
+  "sources": [
+    "https://console.groq.com/docs/model/qwen/qwen3.8-27b",
+    "https://console.groq.com/docs/reasoning",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+    "https://ai.google.dev/api/generate-content#ThinkingConfig"
+  ]
+}

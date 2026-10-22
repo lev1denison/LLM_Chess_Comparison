@@ -1,10 +1,3 @@
-# Research writing
+# My research writing
 
-- `first_move_pilot_report.md`: current methods, results, changes and next decision.
-- `revised_prompt_experiment.md`: historical prompt-development report.
-- `pilot_protocol_local.md`: original local full-sequence protocol.
-- Proposal, revised design and literature review PDFs remain historical sources.
-
-The first-move outcome and assistance level are documented as a design amendment
-in the current report. Historical `code/` references use the layout restorable
-from `archive/pre_first_move_code.zip`; see `archive/README.md`.
+I keep my original proposal, literature review and revised research design PDFs here unchanged. I describe my current study, model selection and results in the project README and notebooks. I use first person in my current Markdown writing.

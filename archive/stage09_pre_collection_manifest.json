@@ -1,0 +1,29 @@
+{
+  "config": {
+    "stage": 9,
+    "version": "single_model_early_research_v1",
+    "provider": "Groq",
+    "model": "openai/gpt-oss-120b",
+    "base_url": "https://api.groq.com/openai/v1",
+    "temperature": 0.6,
+    "seed": 401,
+    "max_completion_tokens": 6000,
+    "reasoning_effort": "Use exactly the effort selected by the stage-08 readiness gate, frozen in deployment.json before calls.",
+    "sample_n": 60,
+    "per_cell": 10,
+    "sample_seed": 4901,
+    "design": "Balanced three human-rating bands x one/multiple solver moves. Exclude all 222 previously sampled/reserved puzzle IDs.",
+    "rating_bands": {
+      "low_max": 1157,
+      "middle_max": 1700
+    },
+    "outcome": "Assisted exact official first UCI move. FEN, piece list and unranked legal choices supplied. No engine, tools or solution supplied.",
+    "request_policy": "Plain final UCI; identical header-paced collector from stage 08; no correctness-based retries; quota deferrals resume without replacing terminal outcomes.",
+    "primary_analysis": "Exploratory binomial logistic regression: success ~ (rating-1500)/500 + indicator(multiple solver moves), among completed provider responses; format/length/illegal output count as failures. Provider errors and quota deferrals are not chess outcomes and are separately reported.",
+    "analysis_gate": "All 60 puzzle positions attempted; at least 58 completed provider responses and at least 15 successes and 15 failures. Otherwise no regression or tree is fitted.",
+    "tree": "Descriptive depth-2 tree on rating, solver-move count and legal-move count; min leaf=10; no out-of-sample accuracy claim.",
+    "scope": "Early results for one model, prompt and deployment. Balanced sample and legal-choice assistance limit generalization. No claim of full-sequence solving or calibrated population accuracy."
+  },
+  "prompt_sha256": "b9e9b5d3859792a55b3611a12efa1490e67a5ef58093624ac4a05729341bbf17",
+  "notebook_code_sha256": "ec89a12afd93c8ee35fe9ca8bc4be8540d4f1d9eff4d81377315ccb60370ef44"
+}

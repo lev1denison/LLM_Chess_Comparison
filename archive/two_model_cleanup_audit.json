@@ -1,0 +1,24 @@
+{
+  "active_models": [
+    "GPT-OSS 120B",
+    "Gemini 3.5 Flash-Lite"
+  ],
+  "current_notebook": "notebooks/03_early_results.ipynb",
+  "removed_active_notebooks": [
+    "notebooks/11_additional_models.ipynb",
+    "notebooks/12_mistral_results.ipynb"
+  ],
+  "archive": "archive/retired_model_notebooks.zip",
+  "pdfs_unchanged": true,
+  "original_result_csv_hashes_verified": true,
+  "markdown_third_model_mentions": 0,
+  "current_notebook_executed_without_errors": true,
+  "bulk_run_started": false,
+  "readiness": "Pilot supports scaling; fresh shared sample and separate quota-aware bulk collector still required.",
+  "retained_references": [
+    "notebooks/08_check_hosted_reliability.ipynb",
+    "notebooks/09_collect_research_sample.ipynb",
+    "notebooks/10_analyze_research_sample.ipynb"
+  ],
+  "review_note": "Automatic approval review rejected broader deletion of validated notebooks/data. I used a narrower cleanup and retained validated references and raw records."
+}
