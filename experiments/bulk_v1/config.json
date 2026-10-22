@@ -1,0 +1,89 @@
+{
+  "version": "bulk_v1",
+  "sample_n": 1000,
+  "train_n": 800,
+  "test_n": 200,
+  "sample_seed": 2401,
+  "split_seed": 2402,
+  "order_seed": 2403,
+  "rating_bands": {
+    "low_max": 1157,
+    "middle_max": 1700
+  },
+  "cell_sizes": [
+    {
+      "rating": "low",
+      "length": "one_move",
+      "n": 167,
+      "test_n": 34
+    },
+    {
+      "rating": "low",
+      "length": "multi_move",
+      "n": 167,
+      "test_n": 33
+    },
+    {
+      "rating": "middle",
+      "length": "one_move",
+      "n": 166,
+      "test_n": 33
+    },
+    {
+      "rating": "middle",
+      "length": "multi_move",
+      "n": 166,
+      "test_n": 33
+    },
+    {
+      "rating": "high",
+      "length": "one_move",
+      "n": 167,
+      "test_n": 33
+    },
+    {
+      "rating": "high",
+      "length": "multi_move",
+      "n": 167,
+      "test_n": 34
+    }
+  ],
+  "warmup_n": 20,
+  "outcome": "Assisted exact official first move, whole-answer legal UCI/canonical SAN normalization. Format, illegal, length and blocked model responses count as failures. Infrastructure errors are pending, not chess failures.",
+  "retry_policy": "Identical request only for transport, HTTP 429 and 5xx; at most five attempts per invocation. Saved completed responses are never replaced. Daily quotas pause only that provider. Explicit zero allowance/access/request-size errors stop for review.",
+  "models": {
+    "gpt_oss": {
+      "label": "GPT-OSS 120B",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "key_file": "api_key.txt",
+      "base_url": "https://api.groq.com/openai/v1",
+      "temperature": 0.6,
+      "seed": 401,
+      "max_completion_tokens": 6000,
+      "reasoning_effort": "low",
+      "minimum_pause_seconds": 2,
+      "daily_token_budget": 190000,
+      "rolling_request_budget": 900
+    },
+    "gemini": {
+      "label": "Gemini 3.5 Flash-Lite",
+      "provider": "google",
+      "model": "gemini-3.5-flash-lite",
+      "key_file": "google_api.txt",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "seed": 401,
+      "max_completion_tokens": 6000,
+      "thinking_level": "LOW",
+      "minimum_pause_seconds": 6,
+      "daily_request_budget": 480
+    }
+  },
+  "sources": [
+    "https://console.groq.com/docs/rate-limits",
+    "https://ai.google.dev/gemini-api/docs/rate-limits"
+  ],
+  "scope": "I retain the successful pilot prompts and model settings. Provider-specific reasoning controls are not equal compute. I make no causal model-family or full-sequence-solving claim. Budgets are conservative local guards, not verified remaining account quotas."
+}

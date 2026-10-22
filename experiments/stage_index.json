@@ -1,5 +1,5 @@
 {
-  "current_stage": 11,
+  "current_stage": "bulk_v1",
   "stages": [
     {
       "stage": 1,
@@ -47,21 +47,21 @@
       "stage": 8,
       "name": "hosted_reliability",
       "status": "complete",
-      "notebook": "notebooks/08_check_hosted_reliability.ipynb",
+      "notebook": "notebooks/reference/08_check_hosted_reliability.ipynb",
       "result": "Low effort selected; 7/8 usable reused cases and 8/8 capability checks"
     },
     {
       "stage": 9,
       "name": "research_sample",
       "status": "complete",
-      "notebook": "notebooks/09_collect_research_sample.ipynb",
+      "notebook": "notebooks/reference/09_collect_research_sample.ipynb",
       "result": "60 audited fresh responses; 21 correct, 38 incorrect legal moves, 1 format failure; no provider failures"
     },
     {
       "stage": 10,
       "name": "research_analysis",
       "status": "early_results_ready",
-      "notebook": "notebooks/10_analyze_research_sample.ipynb",
+      "notebook": "notebooks/reference/10_analyze_research_sample.ipynb",
       "result": "Logistic regression curve, odds ratios and exploratory numeric CART tree saved; rating interval includes no association"
     },
     {
@@ -90,11 +90,35 @@
     "figures/board_prompt_v1": "figures/04_local_prompt_revision",
     "figures/first_move_v1": "figures/05_local_first_move"
   },
-  "current_notebook": "notebooks/03_early_results.ipynb",
+  "current_notebook": "notebooks/04_bulk_collection.ipynb",
   "active_models": [
     "openai/gpt-oss-120b",
     "gemini-3.5-flash-lite"
   ],
-  "next_step": "Prepare a separate quota-aware bulk notebook and freeze 1000 fresh shared puzzles before collection.",
-  "retired_expansion_archive": "archive/retired_model_notebooks.zip"
+  "next_step": "Review notebook 05 early_results_2, then resume notebook 04 after saved retry times; final analysis remains pending complete data.",
+  "retired_expansion_archive": "archive/retired_model_notebooks.zip",
+  "bulk_study": {
+    "version": "bulk_v1",
+    "n": 1000,
+    "train_n": 800,
+    "test_n": 200,
+    "sample_index": "experiments/bulk_v1/sample_index.json",
+    "collection_notebook": "notebooks/04_bulk_collection.ipynb",
+    "analysis_notebook": "notebooks/06_final_analysis.ipynb",
+    "status": "paused_at_local_usage_guards",
+    "interim_notebook": "notebooks/05_early_results_2.ipynb",
+    "completed_research": {
+      "gpt_oss": 0,
+      "gemini": 404
+    },
+    "latest_results": "data/analysis/early_results_2/summary.json"
+  },
+  "logical_notebook_order": [
+    "01_data_inspection.ipynb",
+    "02_chess_validation.ipynb",
+    "03_early_results.ipynb",
+    "04_bulk_collection.ipynb",
+    "05_early_results_2.ipynb",
+    "06_final_analysis.ipynb"
+  ]
 }

@@ -1,0 +1,9 @@
+{
+  "version": "early_results_2",
+  "created_utc": "2026-10-22T03:25:26.317634+00:00",
+  "scope": "User-requested exploratory snapshot of available audited bulk TRAINING answers only; no pilot pooling, no held-out fitting/evaluation, no final hypothesis tests or tuning.",
+  "regression": "Same formula as final plan: success ~ (rating-1500)/500 + multi_move. Require at least 60 completed training rows, at least 15 successes and 15 failures, finite converged nonseparated fit. Ordinary 95% model-based intervals are provisional.",
+  "tree": "Same depth-2 numeric CART and min_leaf=40 as final plan; same three predictors. Require at least 80 training rows and at least 15 successes and 15 failures. Descriptive training tree only; no held-out accuracy claim.",
+  "missing_model": "Show an explicit unavailable-data panel; do not substitute the earlier pilot results.",
+  "final_plan": "Unchanged; full N=1000 and fixed 800/200 split. I do not adapt sampling, predictors, prompts or hyperparameters from these interim results."
+}
