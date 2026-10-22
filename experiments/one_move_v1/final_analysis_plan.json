@@ -1,0 +1,43 @@
+{
+  "id": "final_xgboost_v1",
+  "recorded_utc": "2026-10-22T17:11:10.456554+00:00",
+  "status": "Fixed after the 100-puzzle exploratory pilot and before remaining collection or any held-out evaluation.",
+  "relationship_to_pilot_plan": "This amendment supersedes only the final CART prediction specification and quota behavior in analysis_plan.json. The original pilot plan, early CART figures, features, primary regression, sample, split, prompt and scoring remain unchanged.",
+  "primary_regression": "Pooled unpenalized binomial GLM: success ~ intercept + core board predictors + frozen theme indicators + game-phase indicators + Gemini identity indicator. All 1000 completed answers per model required. Puzzle-clustered standard errors; same puzzle is the cluster. Report odds ratios, ordinary 95% intervals and the prespecified two-sided rating coefficient test. Associations, not causal effects.",
+  "regression_gate": "At least 50 successes and 50 failures in each model; full column rank; converged finite estimates and covariance; no perfect separation warning. If unsupported, report the reason without silently dropping predictors or changing the specification.",
+  "predictor_recipe": "data/experiments/one_move_v1/feature_recipe.json; use its frozen full predictors in original rating/count units for XGBoost. Numeric regression scaling stays unchanged.",
+  "prediction": "Separate XGBClassifier per deployment; no model identity predictor within a per-model classifier.",
+  "xgboost_version": "3.4.1",
+  "xgboost_parameters": {
+    "objective": "binary:logistic",
+    "booster": "gbtree",
+    "n_estimators": 150,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "min_child_weight": 5,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "tree_method": "hist",
+    "device": "cpu",
+    "random_state": 401,
+    "n_jobs": 1,
+    "eval_metric": "logloss",
+    "importance_type": "gain",
+    "verbosity": 0
+  },
+  "class_threshold": 0.5,
+  "training": "Fit each classifier on the fixed 800 training puzzle IDs only; require at least 30 successes and 30 failures. No hyperparameter search, feature selection, early stopping, validation-set selection or test-set tuning. The pilot 100 are included in those 800.",
+  "freeze_before_test": "Save native UBJ model, exact parameter dictionary, feature names, 800 training IDs and model hash before predicting held-out outcomes. Reuse the frozen model on rerun.",
+  "evaluation": "Evaluate once on the fixed 200 held-out puzzles per model. Cache predictions and metrics tied to model/input hashes; reruns verify and reuse the cached evaluation. Report accuracy/Wilson95, balanced accuracy, ROC AUC when defined, Brier score, confusion counts and training-majority baseline.",
+  "feature_importance": "Report training gain importance for each feature; descriptive and not causal or proof of held-out importance. Show this ensemble summary instead of presenting a single tree as the entire XGBoost model.",
+  "pilot_results": "Unchanged: GPT-OSS 35/100, Gemini 53/100. Early trees are descriptive single CARTs, not XGBoost.",
+  "sources": [
+    "https://xgboost.readthedocs.io/en/stable/python/python_api.html",
+    "https://xgboost.readthedocs.io/en/stable/parameter.html",
+    "https://console.groq.com/docs/rate-limits",
+    "https://ai.google.dev/gemini-api/docs/rate-limits"
+  ]
+}

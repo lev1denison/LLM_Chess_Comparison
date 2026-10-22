@@ -1,6 +1,6 @@
 {
   "current_study": "one_move_v1",
-  "status": "pilot_complete_early_results_ready",
+  "status": "bulk_ready_not_started",
   "logical_order": [
     {
       "step": 1,
@@ -28,7 +28,7 @@
     }
   ],
   "protocol": "experiments/one_move_v1/protocol.md",
-  "next_step": "Review frozen early results in notebook 05. No bulk run started; each model has 900 remaining. The GPT-OSS provider-managed retry was temporary; review local quota accounting before bulk.",
+  "next_step": "When ready, set RUN_MODE=bulk in notebook 04 to collect the remaining 900 puzzles per deployment. Default WAIT_FOR_QUOTA=False saves and pauses at actual daily limits; no bulk run started.",
   "sample_n": 1000,
   "pilot_n_per_model": 100,
   "train_n": 800,
@@ -38,5 +38,8 @@
   "completed_research": {
     "gpt_oss": 100,
     "gemini": 100
-  }
+  },
+  "final_prediction_model": "XGBoost",
+  "final_analysis_plan": "experiments/one_move_v1/final_analysis_plan.json",
+  "collector_quota_policy": "provider_enforced"
 }

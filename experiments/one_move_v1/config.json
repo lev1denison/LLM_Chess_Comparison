@@ -45,8 +45,13 @@
       "max_completion_tokens": 6000,
       "reasoning_effort": "low",
       "minimum_pause_seconds": 2,
-      "daily_token_budget": 190000,
-      "rolling_request_budget": 900
+      "published_limits_reference": {
+        "rpm": 30,
+        "rpd": 1000,
+        "tpm": 8000,
+        "tpd": 200000,
+        "source": "Groq public free-tier table; account limits can differ"
+      }
     },
     "gemini": {
       "label": "Gemini 3.5 Flash-Lite",
@@ -60,7 +65,12 @@
       "max_completion_tokens": 6000,
       "thinking_level": "LOW",
       "minimum_pause_seconds": 6,
-      "daily_request_budget": 480
+      "published_limits_reference": {
+        "rpm": 15,
+        "rpd": 500,
+        "input_tpm": 250000,
+        "source": "Earlier user dashboard screenshot; account limits can change"
+      }
     }
   },
   "sources": [
@@ -87,5 +97,7 @@
     "doubleCheck",
     "attackingF2F7"
   ],
-  "theme_min_training_puzzles": 30
+  "theme_min_training_puzzles": 30,
+  "quota_mode": "provider_enforced",
+  "quota_policy": "Local daily token/request totals are advisory only. I pace requests, honor provider reset/retry signals, retry short limits and pause that provider on an actual daily limit. Completed answers are immutable."
 }
