@@ -1,0 +1,33 @@
+{
+  "amendment_id": "claude_haiku_5_5_pilot_v1",
+  "model_key": "claude_haiku",
+  "pilot_n": 100,
+  "bulk_authorized": true,
+  "model_spec": {
+    "label": "Claude Haiku 5.5",
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "key_file": "anthropic_api.txt",
+    "base_url": "https://api.anthropic.com/v1",
+    "api_version": "2023-06-01",
+    "max_completion_tokens": 6000,
+    "thinking_type": "adaptive",
+    "reasoning_effort": "low",
+    "minimum_pause_seconds": 2,
+    "bulk_authorized": true,
+    "pricing_usd_per_million": {
+      "input": 0.1,
+      "output": 0.5,
+      "cache_read": 0.01,
+      "cache_write_5m": 0.125
+    },
+    "settings_note": "No temperature, top-p or seed: omitted for adaptive thinking compatibility. Tools and prompt caching disabled. Provider effort labels do not imply equal compute."
+  },
+  "source_urls": [
+    "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+    "https://platform.claude.com/docs/en/api/messages/create",
+    "https://platform.claude.com/docs/en/build-with-claude/effort"
+  ],
+  "bulk_authorized_utc": "2026-10-24T23:17:38.937630+00:00",
+  "bulk_authorization": "User explicitly said proceed after reviewing 46/100 tolerant pilot accuracy and projected remaining-900 cost of $0.52."
+}

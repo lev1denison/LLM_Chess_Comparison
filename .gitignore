@@ -29,3 +29,4 @@ data/
 *.log
 
 .venv/
+anthropic_api.txt

@@ -1,0 +1,11 @@
+{
+  "revision": "solution_mention_v1",
+  "authorization": "User requested counting the correct move mentioned in an answer despite wording or formatting.",
+  "scope": "All three current-study deployments and future evaluation answers. Capability checks retain their documented separate diagnostic.",
+  "definition": "An official solution move mentioned as a standalone UCI, coordinate-with-hyphen, or board-resolvable SAN token anywhere in visible final response text counts as success, even with other moves or nonstandard formatting. Hidden thinking is excluded.",
+  "multiple_moves": "Any official-move mention counts; alternatives, quotations and negations do not disqualify it. I record all board-legal mentions and flag multiple distinct legal moves. This measures solution-move mention success, not necessarily a single selected move.",
+  "termination": "A correct move in visible text counts even if output was truncated or has another finish reason. Without a correct visible mention, generation-limit and other termination failures remain failures.",
+  "amendment_timing": "Post hoc, after inspecting strict results, including completed Gemini test responses. No new held-out evaluation, tuning, fitting or API requests during rescoring.",
+  "strict_checkpoint": "data/experiments/one_move_v1/strict_scoring_checkpoint",
+  "bulk_authorization": "No Claude bulk collection authorized."
+}

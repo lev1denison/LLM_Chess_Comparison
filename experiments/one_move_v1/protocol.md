@@ -1,3 +1,5 @@
+> Current scoring update: I now use [tolerant solution-move mention scoring](scoring_amendment.md) across all three deployments. This post-hoc amendment supersedes the strict formatting rules below; the earlier text is retained for provenance.
+
 # My revised study protocol
 
 I study **assisted one-move chess-puzzle accuracy**: whether the model chooses the official solution move when exactly one solver move is required. I supply FEN, a piece list and all legal moves in alphabetical order, without strength rankings. I do not measure unaided move generation, multi-step solving, causal effects or human first-move accuracy.

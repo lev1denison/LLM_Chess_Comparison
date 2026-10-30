@@ -1,0 +1,47 @@
+{
+  "id": "early_results_400_v1",
+  "created_utc": "2026-10-25T01:48:46.497299+00:00",
+  "status": "Exploratory checkpoint requested after observing earlier pilot and collection progress; not a new preregistration.",
+  "models": [
+    "gpt_oss",
+    "gemini",
+    "claude_haiku"
+  ],
+  "n_per_model": 400,
+  "selection": "Exactly collection_order 1 through 400 of the original frozen sample, shared across models; all are original training puzzles.",
+  "scoring_version": "solution_mention_v1",
+  "regression": "Pooled binomial GLM using the frozen full board-feature recipe plus Gemini and Claude indicators (GPT-OSS reference). Unpenalized; ordinary 95% intervals with standard errors clustered by puzzle_id. Require at least 50 successes and 50 failures per model, full rank, finite converged fit and no separation. No silent predictor deletion.",
+  "prediction": "Separate XGBClassifier per LLM fitted on all 400 cases. Fixed parameters inherited from final XGBoost plan, without tuning or early stopping.",
+  "cv": "Exploratory 5-fold out-of-fold evaluation within these 400 training puzzles. One shared fold assignment, stratified by pre-existing human rating bands, shuffled with seed 401. Fit 320, predict 80 per fold per model. Final 200 test puzzles excluded. Cache out-of-fold predictions and native full-400 models; reuse on rerun.",
+  "metric_note": "LLM solution-move accuracy and XGBoost accuracy predicting LLM success are different quantities. CV is exploratory and does not replace final held-out evaluation.",
+  "xgboost_version": "3.4.1",
+  "xgboost_parameters": {
+    "objective": "binary:logistic",
+    "booster": "gbtree",
+    "n_estimators": 150,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "min_child_weight": 5,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "tree_method": "hist",
+    "device": "cpu",
+    "random_state": 401,
+    "n_jobs": 1,
+    "eval_metric": "logloss",
+    "importance_type": "gain",
+    "verbosity": 0
+  },
+  "class_threshold": 0.5,
+  "bulk_or_api_requests": 0,
+  "figures": [
+    "accuracy.png",
+    "logistic_regression.png",
+    "xgboost_feature_importance.png"
+  ],
+  "outputs": "data/analysis/one_move_v1/early_results_400",
+  "figures_directory": "figures/one_move_v1/early_results_400"
+}

@@ -1,6 +1,6 @@
 {
   "current_study": "one_move_v1",
-  "status": "bulk_ready_not_started",
+  "status": "early_results_400_complete",
   "logical_order": [
     {
       "step": 1,
@@ -23,23 +23,50 @@
       "notebook": "notebooks/05_early_results.ipynb"
     },
     {
+      "step": "05b",
+      "notebook": "notebooks/05b_early_results_400.ipynb"
+    },
+    {
       "step": 6,
       "notebook": "notebooks/06_final_analysis.ipynb"
     }
   ],
   "protocol": "experiments/one_move_v1/protocol.md",
-  "next_step": "When ready, set RUN_MODE=bulk in notebook 04 to collect the remaining 900 puzzles per deployment. Default WAIT_FOR_QUOTA=False saves and pauses at actual daily limits; no bulk run started.",
+  "next_step": "Review notebook 05b for the matched 400-case checkpoint. Resume remaining 598 GPT-OSS answers when quota allows; final three-model analysis remains separate and pending.",
   "sample_n": 1000,
   "pilot_n_per_model": 100,
   "train_n": 800,
   "test_n": 200,
-  "new_api_calls": 219,
-  "new_generation_requests": 216,
   "completed_research": {
-    "gpt_oss": 100,
-    "gemini": 100
+    "gpt_oss": 402,
+    "gemini": 1000,
+    "claude_haiku": 1000
   },
   "final_prediction_model": "XGBoost",
   "final_analysis_plan": "experiments/one_move_v1/final_analysis_plan.json",
-  "collector_quota_policy": "provider_enforced"
+  "collector_quota_policy": "provider_enforced",
+  "claude_pilot_amendment": "experiments/one_move_v1/claude_amendment.md",
+  "claude_pilot_settings": "experiments/one_move_v1/claude_pilot.json",
+  "claude_bulk_authorized": true,
+  "recorded_utc": "2026-10-24T23:05:11.327613+00:00",
+  "generation_attempts_logged": {
+    "gpt_oss": 418,
+    "gemini": 1052,
+    "claude_haiku": 108
+  },
+  "scoring_version": "solution_mention_v1",
+  "scoring_amendment": "experiments/one_move_v1/scoring_amendment.md",
+  "current_correct": {
+    "gpt_oss": 164,
+    "gemini": 557,
+    "claude_haiku": 490
+  },
+  "early_results_400": {
+    "notebook": "notebooks/05b_early_results_400.ipynb",
+    "plan": "experiments/one_move_v1/early_400_plan.json",
+    "figures": "figures/one_move_v1/early_results_400",
+    "n_per_model": 400,
+    "answers": 1200,
+    "original_test_cases_used": 0
+  }
 }

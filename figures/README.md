@@ -1,13 +1,10 @@
-# My new study figures
+# My study figures
 
-I keep my completed 100-puzzle-per-model pilot figures in `one_move_v1/early/`:
-accuracy, adjusted logistic-regression curves and descriptive trees, generated
-by notebook 05 from frozen audited training answers. GPT-OSS scored 35/100;
-Gemini scored 53/100. I use puzzle-clustered uncertainty for the pooled core
-regression. These are exploratory results, not held-out tree performance.
+I keep two clearly separate early checkpoints:
 
-Notebook 06 creates final accuracy, regression and **XGBoost feature-importance**
-figures only after complete audited collection. It does not present a single
-CART as the final ensemble. The pilot CART figures above remain unchanged.
-My 200 held-out puzzles remain unused. The frozen early checkpoint does not
-change when collection resumes. Older study figures were removed at restart.
+- `one_move_v1/early/`: original strict-scoring 100-puzzle results for GPT-OSS and Gemini, including descriptive single CART trees. I preserve these historical figures unchanged.
+- `one_move_v1/early_results_400/`: current tolerant-scoring results for the same first 400 puzzles across GPT-OSS, Gemini and Claude. Notebook 05b creates accuracy, adjusted logistic-regression curves with observed dots, and XGBoost training-gain feature importance.
+
+My 400-puzzle checkpoint uses 1,200 answers and only original training puzzles. I use five-fold cross-validation within these 400 cases for exploratory XGBoost prediction metrics. I do not use the final 200 test puzzles. A feature-importance chart summarizes the boosted ensemble; I do not label a single CART as XGBoost.
+
+Final notebook 06 remains a separate, pending workflow requiring complete collection and a three-model implementation update. No final test evaluation has been performed. I have not replaced historical figures with the new checkpoint.
