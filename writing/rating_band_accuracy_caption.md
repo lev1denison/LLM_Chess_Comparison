@@ -1,0 +1,1 @@
+Observed official move mention success across three groups of Lichess puzzle difficulty. Easy puzzles have ratings of 1,157 or below, medium puzzles have ratings from 1,158 to 1,700, and difficult puzzles have ratings above 1,700. Error bars represent 95% Wilson confidence intervals.

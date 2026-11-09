@@ -30,3 +30,12 @@ data/
 
 .venv/
 anthropic_api.txt
+
+# Local scratch work and build artifacts
+/tmp/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+.env.*
+!.env.example

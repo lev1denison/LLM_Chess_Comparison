@@ -1,0 +1,76 @@
+{
+  "code_sha256": "46de9848fc21706b7bce121f10976788cdff53af37e60a7fc5c5fe2b2e6cbfe7",
+  "plan_sha256": "4840b3ca736a4068c451e0dbc7590dc49569ddc74f9420a7f5144d416f42288d",
+  "original_manifest_sha256": "f0226fbca863bb8a65770eedf5c619d45b1b2472eefe15838bf06c0506648090",
+  "original_notebook_sha256": "6d105e9b1121e68dd9f84d43b1e3eb2c0bff3a96bf7fff17fc6e6039b5d8206c",
+  "figure_amendment": {
+    "date": "2026-11-08",
+    "previous_code_sha256": "b69eeab35feb73204209dbf4954bc413a2c004d9e8fa381ea31483a36a28a21e",
+    "reason": "User-requested overall-success figure redesign only. Replaced vertical bars with horizontal dots and Wilson intervals; unchanged data, scoring, analysis, and original manifest.",
+    "plot_source": "plot_accuracy.py",
+    "plot_source_sha256": "000b052c8e6434ea7d871711895ea822994d6738ef703aedc496ae8fff0de705"
+  },
+  "confusion_figure_amendment": {
+    "date": "2026-11-08",
+    "previous_code_sha256": "7287d2628b1add85d5410e11bfcaa64835580ebb7f1f045dbb883b0a8231a699",
+    "reason": "Presentation-only revision: unchanged confusion counts and classifier predictions; colors show row percentages on one shared 0-100% scale, cells show counts and percentages.",
+    "plot_source": "plot_heldout_confusion.py",
+    "plot_source_sha256": "6ca204ac8ab47a64e194c01fbdb9be6908088d1624d7d7160b79e6b5aa8fafb8"
+  },
+  "logistic_figure_amendment": {
+    "date": "2026-11-08",
+    "previous_code_sha256": "2b49a037e38b4f620835210a22d8a3d10eb5974341058ee16ef3a1f9e17a018a",
+    "reason": "Presentation-only restyling of conditional logistic curves. No refit; original 200 rating values, predicted means, and clustered confidence limits match exactly. Same training-median reference, zero themes, and middlegame.",
+    "plot_source": "plot_logistic_regression.py",
+    "plot_source_sha256": "0cb15983cb0d430786e50c59666f715bdd32b4580b0d23aded8d0ec1d6b6597e",
+    "unchanged_fitted_model_sha256": "8f33612a629cb96579878f997b57f6c69737ff382f18c3283915a8cc3582e17e"
+  },
+  "rating_band_figure_amendment": {
+    "date": "2026-11-08",
+    "previous_code_sha256": "d24259f698d5b6fa16d5d82dedc7eb9909b0318d692d5428fbb80b635c369efe",
+    "reason": "Presentation-only grouped dot-plot redesign. Saved rates and Wilson bounds retained; all nine counts verified against frozen inputs. Thresholds unchanged and documented in a separate caption.",
+    "plot_source": "plot_rating_band_accuracy.py",
+    "plot_source_sha256": "ac028d758554a28aa73050c2f8a311da36e88bffc054e15310cf572cd30f14f5"
+  },
+  "importance_figure_amendment": {
+    "date": "2026-11-08",
+    "previous_code_sha256": "0ae0023350852a37b8dd69f5122dd5c294930202da297e0349e419958f2acfa0",
+    "reason": "Presentation-only revision: vertically stacked panels use descending mean normalized training gain for a shared feature order. All 27 saved values, including three zeros, retained; no training or importance recalculation.",
+    "plot_source": "plot_xgboost_feature_importance.py",
+    "plot_source_sha256": "5f3157cc193df5def021ca0d5fd4334396ec6739eef6aac17f6072e5595ca297",
+    "feature_order": [
+      "puzzle_rating",
+      "theme_hangingPiece",
+      "theme_kingsideAttack",
+      "piece_count",
+      "legal_moves",
+      "material_balance",
+      "phase_opening",
+      "phase_endgame",
+      "theme_pin"
+    ],
+    "source_importance_sha256": {
+      "data\\analysis\\one_move_v1\\final\\gpt_oss_xgboost_feature_importance.csv": "4227614fe42cab4c4d7b32c7662dc18a3df8fae285958f80495f59308515a244",
+      "data\\analysis\\one_move_v1\\final\\gemini_xgboost_feature_importance.csv": "12778cb1d5fa1d27d39df6af9498cec18e543dac0e343fea064e5320416d2510",
+      "data\\analysis\\one_move_v1\\final\\claude_haiku_xgboost_feature_importance.csv": "042548203412a6a8395100151deca14b8fa888c8cac4232efc2de080b203bbea"
+    }
+  },
+  "presentation_revisions": [
+    {
+      "date": "2026-11-08",
+      "reason": "Compact manuscript revision: overall success uses 30-65% axis, smaller title, no y-axis label or footnote; training-gain panels are shorter with tighter spacing, smaller headings, and no zero annotations. All estimates, intervals, gains, ordering, and common importance scale retained.",
+      "notebook_code_sha256": "46de9848fc21706b7bce121f10976788cdff53af37e60a7fc5c5fe2b2e6cbfe7",
+      "plot_source_sha256": {
+        "plot_accuracy.py": "8e94ef981ccc928e903ccda5f881be45473fcc0feddbd7001d501bd2f1187b7a",
+        "plot_xgboost_feature_importance.py": "ee3a280af7ad953ceb1c483e403a916496fe9ceea4b26fbd10d0dfb31536fbd2"
+      },
+      "accuracy_caption": "writing/accuracy_caption.tex"
+    },
+    {
+      "date": "2026-11-08",
+      "reason": "Removed below-graph caption text and enlarged confusion heatmap panels; counts, row percentages, and shared scale retained.",
+      "plot_source": "plot_heldout_confusion.py",
+      "plot_source_sha256": "7a01e601d0b5471e4166e773e23d69708a8ea4ca942d9eb2cc2e56c41c44a1cc"
+    }
+  ]
+}

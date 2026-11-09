@@ -1,72 +1,90 @@
-# Assisted one-move chess-puzzle accuracy
+# Assisted one-move chess-puzzle success
 
-Victor Le - DA401
+Victor Le · DA401 · Final analysis completed November 1, 2026
 
-I study how human-rated puzzle difficulty and board characteristics relate to LLM success. I give each model the FEN, a piece list and every legal move in alphabetical order. I count the official solution move when it appears in the visible answer, including explanations or formatting. I use the same tolerant extraction rule for all models. I do not provide the answer, rating, theme labels, engine scores or tools.
+I study how human-rated difficulty and board characteristics relate to LLM success on the same 1,000 chess puzzles. Each deployment receives FEN, a piece list and every legal move in alphabetical order, without the answer, rating, theme labels, engine evaluations or tools. The amended outcome counts the official solution move anywhere in the visible answer: **assisted solution-move mention success**, which does not require a unique recommendation.
 
-## Current results and next step
+## Final results
 
-| Model | Saved research answers | Status |
-| --- | ---: | --- |
-| GPT-OSS 120B | 402 / 1,000 | 164 correct (40.8%); paused at Groq quota |
-| Gemini 3.5 Flash-Lite | 1,000 / 1,000 | 557 correct (55.7%); collection complete |
-| Claude Haiku 5.5 | 1,000 / 1,000 | 490 correct (49.0%); collection complete |
+All three deployments completed 1,000 unique puzzles with the same frozen 800 training / 200 test split. Final checks verified saved collection audits, response IDs, puzzle metadata, split and hashes. Analysis made no new API calls.
 
-### Early results 2: the same first 400 puzzles
+| Deployment | Correct / puzzles | Tolerant success | Wilson 95% interval |
+| --- | ---: | ---: | ---: |
+| GPT-OSS 120B | 421 / 1,000 | 42.1% | 39.1%–45.2% |
+| Gemini 3.5 Flash-Lite | 557 / 1,000 | 55.7% | 52.6%–58.8% |
+| Claude Haiku 5.5 | 490 / 1,000 | 49.0% | 45.9%–52.1% |
 
-I created [05b - Early results on 400 shared puzzles](notebooks/05b_early_results_400.ipynb) as a separate checkpoint using tolerant scoring:
+The pooled logistic regression uses all 3,000 answers, frozen board features and deployment indicators, with standard errors clustered over 1,000 puzzles. A 500-point rating increase is associated with an odds ratio of **0.564** (95% CI 0.511–0.624; two-sided p=3.61×10⁻²⁹). These are adjusted associations, not causal effects. Secondary estimates and ordinary intervals are in the report.
 
-| Model | Correct / puzzles | Accuracy |
-| --- | ---: | ---: |
-| GPT-OSS 120B | 164 / 400 | 41.0% |
-| Gemini 3.5 Flash-Lite | 229 / 400 | 57.25% |
-| Claude Haiku 5.5 | 200 / 400 | 50.0% |
+Separate fixed XGBoost classifiers predict whether each deployment succeeds. Each uses 800 training puzzles, 150 trees, depth 3, learning rate 0.05 and fixed regularization. Native models were saved before evaluating on the 200 held-out puzzles; reruns reuse cached predictions. No test tuning or early stopping was used.
 
-I fitted a pooled logistic regression with the full frozen board-feature recipe and model identity, using 400 puzzle clusters. I also saved three XGBoost models trained on these 400 puzzles. The [accuracy](figures/one_move_v1/early_results_400/accuracy.png), [logistic regression](figures/one_move_v1/early_results_400/logistic_regression.png) and [XGBoost feature-importance](figures/one_move_v1/early_results_400/xgboost_feature_importance.png) figures are in `early_results_400`.
+| Deployment | Held-out prediction accuracy | Balanced accuracy | ROC AUC | Brier | Majority baseline accuracy |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| GPT-OSS 120B | 58.0% | 0.530 | 0.599 | 0.242 | 60.5% |
+| Gemini 3.5 Flash-Lite | 70.0% | 0.690 | 0.714 | 0.214 | 56.0% |
+| Claude Haiku 5.5 | 54.5% | 0.543 | 0.598 | 0.247 | 51.0% |
 
-All selected cases are original training puzzles. My shared five-fold cross-validation within these 400 cases predicts LLM success; it is exploratory and does not use or replace the final 200-puzzle test set. I made no API calls. My [checkpoint plan](experiments/one_move_v1/early_400_plan.json) records the selection and fixed settings. I can review these early results now while GPT-OSS collection remains incomplete.
+These measure **prediction of LLM success**, distinct from LLM puzzle-success rates. GPT-OSS prediction falls below its training-majority baseline; Gemini shows the clearest predictive performance. Small differences for the other deployments warrant caution.
 
-My original strict 100-puzzle pilot scored **35% for GPT-OSS** and **53% for Gemini**. Under my amended tolerant scoring, the same 100 training puzzles score **35% GPT-OSS, 54% Gemini and 46% Claude**. The overall counts in the table use different sample sizes and are not a matched comparison. I preserve its [early-results notebook](notebooks/05_early_results.ipynb) and figures unchanged. The original graphs retain strict scoring and are historical results, not the current tolerant analysis.
+Read the [final report](writing/final_report.md) for methods, regression estimates, rating-band results, scoring sensitivity and limitations. [Shareable CSV tables](writing/final_tables/) accompany it.
 
-I am adding Claude as a third deployment, retaining GPT-OSS and Gemini. My [Claude amendment](experiments/one_move_v1/claude_amendment.md) records its settings and the capability-format diagnostic. I now use the [documented tolerant scoring amendment](experiments/one_move_v1/scoring_amendment.md). Claude scored **46/100 (46%)**, compared with 28/100 under strict formatting; all 24 formerly unparseable answers are now recognizable, and 18 become correct. I preserve strict scores and raw answers. The 100 puzzle calls cost approximately **$0.0577**, or **$0.0589 including eight capability checks**. At the pilot average, another 900 puzzles would cost about **$0.52**; this is an estimate rather than a spending guarantee. I approved Claude bulk collection after reviewing its pilot accuracy and cost. The [notebook 04 report](notebooks/04_collect_answers.ipynb) and ignored `data/experiments/one_move_v1/claude_haiku/pilot_report.json` record the result. I have not added GPT-6 Luna.
+![Final solution-move mention success](figures/one_move_v1/final/accuracy.png)
 
-I use the same frozen **1,000 unique puzzles** and **800 training / 200 test split** for every deployment. The 100-puzzle pilot is part of the training set, so it leaves 900 answers per model. Completed answers are reused. I rescore saved responses locally without new calls; current `results.csv` files contain tolerant `success` and original `strict_success`, while immutable raw outcome logs retain historical scores. Because **979 puzzles carry the mate-in-one tag**, my conclusions mainly concern mating tactics rather than all chess puzzles.
+Other final figures: [rating-band success](figures/one_move_v1/final/rating_band_accuracy.png), [adjusted rating curves](figures/one_move_v1/final/logistic_regression.png), [XGBoost training importance](figures/one_move_v1/final/xgboost_feature_importance.png), and [held-out confusion matrices](figures/one_move_v1/final/heldout_confusion.png).
 
-## Notebook order
+## Interpretation and amendments
+
+Because **979/1,000 puzzles are tagged mate-in-one**, conclusions mainly concern short mating tactics under legal-move assistance. The rating-balanced sample does not represent all chess puzzles. Provider settings and effort labels differ; comparisons concern the recorded deployments rather than equal compute or isolated architecture effects.
+
+The [scoring amendment](experiments/one_move_v1/scoring_amendment.md) followed inspection of strict results, including completed Gemini collection. It accepts a board-resolvable official move anywhere in the visible answer, including explanations, alternatives or negation. Original strict scores and immutable raw logs remain intact.
+
+| Deployment | Strict success | Tolerant success | Answers mentioning multiple legal moves |
+| --- | ---: | ---: | ---: |
+| GPT-OSS 120B | 418 / 1,000 (41.8%) | 421 / 1,000 (42.1%) | 0 |
+| Gemini 3.5 Flash-Lite | 545 / 1,000 (54.5%) | 557 / 1,000 (55.7%) | 0 |
+| Claude Haiku 5.5 | 286 / 1,000 (28.6%) | 490 / 1,000 (49.0%) | 5 |
+
+The rule changes the ordering of Claude and GPT-OSS. Mention success does not guarantee a unique selection. Historical claims that no answers mention multiple moves applied to earlier checkpoints, not the completed sample.
+
+The [original protocol](experiments/one_move_v1/protocol.md), [Claude amendment](experiments/one_move_v1/claude_amendment.md), [original final plan](experiments/one_move_v1/final_analysis_plan.json), and [three-model extension](experiments/one_move_v1/final_three_model_plan.json) document the study's development. The extension was recorded after completed collection and early/aggregate inspection, before final fitting and held-out predictive evaluation. This is a disclosed amended analysis, not an unchanged original preregistration. The original collection manifest is preserved, with a [separate final code/plan binding](experiments/one_move_v1/final_three_model_binding.json).
+
+## Notebook order and reproduction
 
 | Step | Notebook | Purpose |
 | --- | --- | --- |
-| 01 | [Data inspection](notebooks/01_data_inspection.ipynb) | Inspect source data |
-| 02 | [Chess validation](notebooks/02_chess_validation.ipynb) | Validate boards and extract characteristics |
-| 03 | [Prepare study](notebooks/03_prepare_study.ipynb) | Freeze sample, features and split; no API calls |
-| 04 | [Collect answers](notebooks/04_collect_answers.ipynb) | Resume collection; currently Claude-only bulk mode |
-| 05 | [Early results](notebooks/05_early_results.ipynb) | Preserve the original two-model strict pilot graphs |
-| 05b | [Early results 2: 400 puzzles](notebooks/05b_early_results_400.ipynb) | Current three-model regression and exploratory XGBoost checkpoint |
-| 06 | [Final analysis](notebooks/06_final_analysis.ipynb) | Original two-model pooled regression and held-out XGBoost; pending complete collection |
+| 01 | [Data inspection](notebooks/01_data_inspection.ipynb) | Historical source-data inspection |
+| 02 | [Chess validation](notebooks/02_chess_validation.ipynb) | Board validation and characteristics |
+| 03 | [Prepare study](notebooks/03_prepare_study.ipynb) | Original frozen sample, features and split |
+| 04 | [Collect answers](notebooks/04_collect_answers.ipynb) | Completed collection and offline scoring |
+| 05 | [Early results](notebooks/05_early_results.ipynb) | Historical strict two-model 100-puzzle pilot |
+| 05b | [Early results on 400 puzzles](notebooks/05b_early_results_400.ipynb) | Exploratory tolerant three-model training-only checkpoint |
+| 06 | [Final analysis](notebooks/06_final_analysis.ipynb) | Executed three-model regression, frozen XGBoost fits and cached held-out evaluation |
 
-I do not rerun 01-03 to collect more answers. Notebook 04 saves each response, preserves completed wrong answers and pauses at provider limits. Its current controls select only Claude in bulk mode. Claude has completed all 1,000 cases, so its saved answers are reused on rerun. I must select GPT-OSS explicitly to resume its remaining 598 cases. Analysis notebook 05b makes no API calls.
+Install the pinned environment with `python -m pip install -r requirements.txt`. Notebook 06 locates plotting helpers in `scripts/` through its setup cell. Use this Python environment and the existing ignored local `data/` directory. A repository clone alone does not contain the frozen sample or raw responses. Run notebook 06 with the project root as working directory to verify inputs and reproduce tables/figures. Existing native models and held-out receipts are reused. Then run `python scripts/build_final_report.py` to rebuild the Markdown report and shareable tables. Do not resample the study or start new collection to reproduce these results.
 
-## My analysis
+Notebook 06 verifies original source audits and manifest, amended code/plan bindings and frozen final input hashes. It makes no provider requests. `scripts/prepare_final_revision.py` was a one-time amendment/archive script and is not a routine reproduction step.
 
-I record rating, legal-move count, piece count, solver-relative material balance, tactical themes, game phase and side to move. The final regression uses the frozen numeric, theme and phase predictors plus model identity, with puzzle-clustered standard errors. Solution length is constant. Side to move is descriptive rather than a fixed regression predictor.
+## Historical checkpoints
 
-I plan separate XGBoost models with 150 trees, depth 3 and learning rate 0.05, trained on 800 puzzles and evaluated on 200 held-out puzzles, without tuning on test answers. The original strict pilot's small CART plots are descriptive and are not XGBoost. I created separate tolerant-scoring figures and exploratory models in notebook 05b; the original strict figures remain unchanged. I have not fitted final models. Before analyzing three deployments, I must explicitly extend notebook 06's two-model implementation and final plan; I have not fitted a final three-model analysis.
+The original strict 100-puzzle pilot scored GPT-OSS 35% and Gemini 53%; its plots and descriptive CARTs are unchanged. Under tolerant scoring those same training puzzles score GPT-OSS 35%, Gemini 54% and Claude 46%.
 
-## Why I switched from local to hosted models
+The first-400-training-puzzle checkpoint scored GPT-OSS 41.0%, Gemini 57.25% and Claude 50.0%. Its regression, training importance and five-fold prediction evaluation were exploratory and did not replace final held-out evaluation. Historical figures remain in their original directories.
 
-| Historical feasibility check | Correct / completed |
-| --- | ---: |
-| Three local models, full puzzle solutions | 0 / 225 |
-| Three local models, assisted first moves | 6 / 144 |
-| Hosted GPT-OSS, assisted first moves | 21 / 60 |
-| Hosted Gemini, assisted first moves | 32 / 60 |
+Earlier feasibility checks produced 0/225 complete local full solutions, 6/144 assisted local first moves, 21/60 hosted GPT-OSS assisted first moves and 32/60 hosted Gemini assisted first moves. Samples/prompts differed; these are feasibility evidence, not a controlled comparison. [Source hashes and counts](experiments/one_move_v1/background_evidence.csv) are retained.
 
-I needed enough successes and failures to study puzzle characteristics. These historical checks used different samples and prompts, so they are not a controlled local-versus-hosted comparison or results for the current study. I retain the [evidence counts and source hashes](experiments/one_move_v1/background_evidence.csv).
+## Repository layout
+
+- `notebooks/`: ordered research notebooks.
+- `scripts/`: report generation, plotting, verification and the historical revision utility.
+- `tmp/`, caches, credentials and study data are local and ignored.
 
 ## Files and credentials
 
-- `experiments/one_move_v1/`: protocol, frozen original plans, prompt, settings, sample index, Claude pilot amendment and tolerant scoring amendment
-- `data/experiments/one_move_v1/`: frozen sample and separate `gpt_oss/`, `gemini/` and `claude_haiku/` response logs, outcomes, checkpoint CSVs and audits. Live counts come from `outcomes.jsonl`; summaries refresh at stops
-- `data/analysis/one_move_v1/` and `figures/one_move_v1/`: analysis artifacts, original pilot figures and the new `early_results_400` checkpoint
-- `writing/`: my three original PDFs writing
+- `experiments/one_move_v1/`: original plans, protocol, amendments, settings, prompt and final code binding.
+- `data/experiments/one_move_v1/`: ignored frozen sample, raw logs, result views and collection audits. `final_three_model_revision/` archives the pre-extension notebook.
+- `data/analysis/one_move_v1/final/`: ignored final input snapshots, file-hash audit, coefficients, native XGBoost models, training receipts and cached predictions/metrics.
+- `figures/one_move_v1/final/`: final figures; other directories retain historical figures.
+- `writing/final_report.md` and `writing/final_tables/`: final report and shareable numeric tables.
+- `writing/*.pdf`: unchanged original proposal, literature review and research-design documents.
 
+Credentials remain ignored. Collection records and historical artifacts were preserved. No publication, commit or push was performed.

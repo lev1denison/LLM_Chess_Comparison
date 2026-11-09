@@ -1,0 +1,4 @@
+Model,n,strict_correct,tolerant_correct,additional_correct,multiple_move_answers
+GPT-OSS 120B,1000,418,421,3,0
+Gemini 3.5 Flash-Lite,1000,545,557,12,0
+Claude Haiku 5.5,1000,286,490,204,5

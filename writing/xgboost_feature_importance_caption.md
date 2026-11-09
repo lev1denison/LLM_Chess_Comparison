@@ -1,0 +1,1 @@
+Relative feature importance from three separately trained XGBoost classifiers. Importance is measured using normalized training gain. Each classifier was fitted using 800 training puzzles and 150 boosted trees. Values describe the features used by the fitted classifiers and should not be interpreted as causal effects or evidence of incremental predictive performance.
